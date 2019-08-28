@@ -64,3 +64,19 @@ myFunc3("Adam", "sunny", "one", "two", "three");
 let myFunc4 = (nameFunction) => ("Hello " + nameFunction() + ".");
 let printName = (nameFunction, printFunction) => printFunction(myFunc4(nameFunction));
 printName(function () { return "Adam" }, console.log);
+
+
+// The let keyword is used to declare variables and, optionally, assign a value to the variable in a single
+// statement. Variables declared with let are scoped to the region of code in which they are defined
+let messageFunction = function (name, weather) {
+  let message = "Hello, Adam";
+  if (weather == "sunny") {
+    let message = "It is a nice day";
+    console.log(message);
+  } else {
+    let message = "It is " + weather + " today";
+    console.log(message);
+  }
+  console.log(message);
+}
+messageFunction("Adam", "raining");
