@@ -38,9 +38,24 @@ let myFunc = function(name, weather) {
 };
 myFunc("Adam", "sunny");
 
-
+// There are two ways that you can modify a function to respond to a mismatch between the number
+// of parameters it defines and the number of arguments used to invoke it. Default parameters deal with the
+// situation where there are fewer arguments than parameters, and they allow you to provide a default value for
+// the parameters for which there are no arguments,
 let myFunc2 = function (name, weather = "raining") {
   console.log("Hello " + name + ".");
   console.log("It is " + weather + " today");
 };
 myFunc2("Adam");
+
+
+// The rest parameter must be the last parameter defined by the function, and its name is prefixed with an
+// ellipsis (three periods, ...). The rest parameter is an array to which any extra arguments will be assigned.
+let myFunc3 = function (name, weather, ...extraArgs) {
+  console.log("Hello " + name + ".");
+  console.log("It is " + weather + " today");
+  for (let i = 0; i < extraArgs.length; i++) {
+    console.log("Extra Arg: " + extraArgs[i]);
+  }
+};
+myFunc3("Adam", "sunny", "one", "two", "three");
