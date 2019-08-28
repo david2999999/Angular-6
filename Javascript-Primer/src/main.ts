@@ -32,8 +32,8 @@ console.log("This is also a statement");
 // 4. The browser executes the statements that were originally in the main.ts file,
   // which writes out two messages to the browser’s JavaScript console.
 
-let myFunc = function () {
-  console.log("This is a statement");
+let myFunc = function(name, weather) {
+  console.log("Hello " + name + ".");
+  console.log("It is " + weather + " today");
 };
-
-myFunc();
+myFunc("Adam", "sunny");
