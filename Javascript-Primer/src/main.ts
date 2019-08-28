@@ -95,3 +95,13 @@ let myFunc5 = function(name) {
   return innerFunction();
 };
 console.log(myFunc5("Adam"));
+
+
+// Template strings begin and end with backticks (the ` character), and data values are denoted by curly
+// braces preceded by a dollar sign. This string, for example, incorporates the value of the weather variable into
+// the template string
+let messageFunction2 = function (weather) {
+  let message = `It is ${weather} today`;
+  console.log(message);
+}
+messageFunction2("raining");
