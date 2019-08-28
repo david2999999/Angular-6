@@ -59,3 +59,8 @@ let myFunc3 = function (name, weather, ...extraArgs) {
   }
 };
 myFunc3("Adam", "sunny", "one", "two", "three");
+
+
+let myFunc4 = (nameFunction) => ("Hello " + nameFunction() + ".");
+let printName = (nameFunction, printFunction) => printFunction(myFunc4(nameFunction));
+printName(function () { return "Adam" }, console.log);
