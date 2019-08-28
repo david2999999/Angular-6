@@ -37,3 +37,10 @@ let myFunc = function(name, weather) {
   console.log("It is " + weather + " today");
 };
 myFunc("Adam", "sunny");
+
+
+let myFunc2 = function (name, weather = "raining") {
+  console.log("Hello " + name + ".");
+  console.log("It is " + weather + " today");
+};
+myFunc2("Adam");
