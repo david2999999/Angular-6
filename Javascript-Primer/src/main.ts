@@ -80,3 +80,18 @@ let messageFunction = function (name, weather) {
   console.log(message);
 }
 messageFunction("Adam", "raining");
+
+
+// The inner function in this example is able to access the local variables of the outer function, including
+// its name parameter. This is a powerful feature that means you don’t have to define parameters on inner
+// functions to pass around data values, but caution is required because it is easy to get unexpected results
+// when using common variable names like counter or index, where you may not realize that you are reusing a
+// variable name from the outer function
+let myFunc5 = function(name) {
+  let myLocalVar = "sunny";
+  let innerFunction = function () {
+    return ("Hello " + name + ". Today is " + myLocalVar + ".");
+  }
+  return innerFunction();
+};
+console.log(myFunc5("Adam"));
