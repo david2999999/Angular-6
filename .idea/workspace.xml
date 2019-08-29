@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8c12dd8-10c3-4991-93a2-eec203370119" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Javascript-Primer/src/js primer/Objects/Inheritance.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javascript-Primer/src/js primer/DefiningClasses.js" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript-Primer/src/js primer/Objects/DefiningClasses.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javascript-Primer/src/js primer/EqualityIdentityOperator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript-Primer/src/js primer/Condtionals/EqualityIdentityOperator.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javascript-Primer/src/js primer/GetterSetter.js" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript-Primer/src/js primer/Objects/GetterSetter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javascript-Primer/src/js primer/Prototypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript-Primer/src/js primer/Objects/Prototypes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javascript-Primer/src/js primer/WorkingWithObjects..js" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript-Primer/src/js primer/Objects/WorkingWithObjects..js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javascript-Primer/src/js primer/arrays.js" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript-Primer/src/js primer/Arrays/arrays.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javascript-Primer/src/js primer/conditional.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript-Primer/src/js primer/Condtionals/conditional.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javascript-Primer/src/js primer/spreadOperator.js" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript-Primer/src/js primer/Arrays/spreadOperator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript-Primer/src/js primer/Modules/NameAndWeather.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript-Primer/src/js primer/Modules/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,24 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Javascript-Primer/src/js primer/Condtionals/conditional.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Javascript-Primer/src/js primer/Condtionals/EqualityIdentityOperator.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-60">
-              <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Javascript-Primer/src/js primer/TypeConversion.ts">
           <provider selected="true" editor-type-id="text-editor">
@@ -113,11 +89,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Javascript-Primer/src/js primer/Objects/Inheritance.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+            <state relative-caret-position="276">
+              <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Javascript-Primer/src/js primer/Modules/NameAndWeather.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Javascript-Primer/src/js primer/Modules/main.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -127,8 +121,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -165,6 +159,8 @@
         <option value="$PROJECT_DIR$/Javascript-Primer/src/Prototypes.js" />
         <option value="$PROJECT_DIR$/Javascript-Primer/src/js primer/GetterSetter.js" />
         <option value="$PROJECT_DIR$/Javascript-Primer/src/js primer/Objects/Inheritance.js" />
+        <option value="$PROJECT_DIR$/Javascript-Primer/src/js primer/Modules/NameAndWeather.ts" />
+        <option value="$PROJECT_DIR$/Javascript-Primer/src/js primer/Modules/main.ts" />
       </list>
     </option>
   </component>
@@ -214,7 +210,7 @@
               <item name="Javascript-Primer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="js primer" type="462c0819:PsiDirectoryNode" />
-              <item name="Objects" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -264,12 +260,12 @@
       <updated>1566930705040</updated>
       <workItem from="1566930706226" duration="3514000" />
       <workItem from="1566991590254" duration="8412000" />
-      <workItem from="1567083490873" duration="3015000" />
+      <workItem from="1567083490873" duration="3425000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14941000" />
+    <option name="totallyTimeSpent" value="15351000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -507,8 +503,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Javascript-Primer/src/js primer/Objects/Inheritance.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        <state relative-caret-position="276">
+          <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Javascript-Primer/src/js primer/Modules/NameAndWeather.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Javascript-Primer/src/js primer/Modules/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
         </state>
       </provider>
     </entry>
