@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8c12dd8-10c3-4991-93a2-eec203370119" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Javascript-Primer/src/typescript features/IndexableTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript-Primer/src/typescript features/AccessModifiers.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -70,11 +70,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Javascript-Primer/src/typescript features/IndexableTypes.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
               <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Javascript-Primer/src/typescript features/AccessModifiers.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,15 +111,6 @@
               <folding>
                 <element signature="e#0#67#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Javascript-Primer/src/js primer/Modules/DuplicateName.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -166,6 +169,7 @@
         <option value="$PROJECT_DIR$/Javascript-Primer/src/typescript features/Type Annotation Properties and Variables/MultipleOrAnyType.ts" />
         <option value="$PROJECT_DIR$/Javascript-Primer/src/typescript features/Tuples.ts" />
         <option value="$PROJECT_DIR$/Javascript-Primer/src/typescript features/IndexableTypes.ts" />
+        <option value="$PROJECT_DIR$/Javascript-Primer/src/typescript features/AccessModifiers.ts" />
       </list>
     </option>
   </component>
@@ -258,12 +262,12 @@
       <updated>1566930705040</updated>
       <workItem from="1566930706226" duration="3514000" />
       <workItem from="1566991590254" duration="8412000" />
-      <workItem from="1567083490873" duration="5740000" />
+      <workItem from="1567083490873" duration="6159000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17666000" />
+    <option name="totallyTimeSpent" value="18085000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -579,6 +583,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Javascript-Primer/src/typescript features/AccessModifiers.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
