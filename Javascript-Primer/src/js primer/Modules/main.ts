@@ -1,9 +1,13 @@
 import {Name, WeatherLocation} from "./NameAndWeather";
+import { Name as OtherName } from "./DuplicateName";
 
 let name = new Name("Adam", "Freeman");
 let loc = new WeatherLocation("raining", "London");
+let other = new OtherName();
+
 console.log(name.nameMessage);
 console.log(loc.weatherMessage);
+console.log(other.message);
 
 // This is the way that I use the import keyword in most of the examples in this book. The keyword is
 // followed by curly braces that contain a comma-separated list of the features that the code in the current files
