@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8c12dd8-10c3-4991-93a2-eec203370119" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Javascript-Primer/src/spreadOperator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript-Primer/src/WorkingWithObjects..js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -16,15 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/First-Angular-Application/angular.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="26" column="65" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HTML-CSS-Primer/angular.json">
           <provider selected="true" editor-type-id="text-editor">
@@ -88,7 +79,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Javascript-Primer/src/spreadOperator.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
@@ -96,6 +87,15 @@
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Javascript-Primer/src/WorkingWithObjects..js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -153,6 +153,8 @@
         <option value="$PROJECT_DIR$/Javascript-Primer/src/TypeConversion.ts" />
         <option value="$PROJECT_DIR$/Javascript-Primer/src/arrays.js" />
         <option value="$PROJECT_DIR$/Javascript-Primer/src/spreadOperator.js" />
+        <option value="$PROJECT_DIR$/Javascript-Primer/src/WorkingWithObjects.ts" />
+        <option value="$PROJECT_DIR$/Javascript-Primer/src/WorkingWithObjects..js" />
       </list>
     </option>
   </component>
@@ -229,12 +231,12 @@
       <updated>1566930705040</updated>
       <workItem from="1566930706226" duration="3514000" />
       <workItem from="1566991590254" duration="8412000" />
-      <workItem from="1567083490873" duration="930000" />
+      <workItem from="1567083490873" duration="1635000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12856000" />
+    <option name="totallyTimeSpent" value="13561000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -429,6 +431,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Javascript-Primer/src/WorkingWithObjects.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Javascript-Primer/src/spreadOperator.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -436,6 +441,13 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Javascript-Primer/src/WorkingWithObjects..js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
         </state>
       </provider>
     </entry>
