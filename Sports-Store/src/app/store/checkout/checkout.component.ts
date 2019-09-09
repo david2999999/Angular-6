@@ -1,6 +1,6 @@
 import { Component } from "@angular/core";
-import {OrderRepository} from "../../model/order.repository";
-import {Order} from "../../model/order.model";
+import {OrderRepository} from "../../model/order/order.repository";
+import {Order} from "../../model/order/order.model";
 import {NgForm} from "@angular/forms";
 
 @Component({

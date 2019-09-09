@@ -1,6 +1,6 @@
 import {Product} from "./product.model";
 import {Injectable} from "@angular/core";
-import {RestDataSource} from "./rest.datasource";
+import {RestDataSource} from "../datasource/rest.datasource";
 
 @Injectable()
 export class ProductRepository {

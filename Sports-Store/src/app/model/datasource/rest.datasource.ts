@@ -1,8 +1,8 @@
 import {Injectable} from "@angular/core";
 import {HttpClient, HttpHeaders} from "@angular/common/http";
 import {Observable} from "rxjs";
-import {Product} from "./product.model";
-import {Order} from "./order.model";
+import {Product} from "../product/product.model";
+import {Order} from "../order/order.model";
 import { map } from "rxjs/operators";
 
 const PROTOCOL = "http";

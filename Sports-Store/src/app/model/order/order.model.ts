@@ -1,5 +1,5 @@
 import { Injectable } from "@angular/core";
-import { Cart } from "./cart.model";
+import { Cart } from "../cart/cart.model";
 
 @Injectable()
 export class Order {

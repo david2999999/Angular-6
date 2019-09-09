@@ -1,6 +1,6 @@
 import { Injectable } from "@angular/core";
 import { Observable } from "rxjs";
-import { RestDataSource } from "./rest.datasource";
+import { RestDataSource } from "../datasource/rest.datasource";
 
 @Injectable()
 export class AuthService {
