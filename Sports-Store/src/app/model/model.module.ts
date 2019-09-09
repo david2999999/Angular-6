@@ -7,11 +7,12 @@ import {OrderRepository} from "./order/order.repository";
 import {RestDataSource} from "./datasource/rest.datasource";
 import {HttpClientModule} from "@angular/common/http";
 import {AuthService} from "./auth/auth.service";
+import {ConnectionService} from "./connection.service";
 
 @NgModule({
   imports: [HttpClientModule],
   providers: [ProductRepository, Cart, Order, OrderRepository,
     { provide: StaticDataSource, useClass: RestDataSource },
-    RestDataSource, AuthService]
+    RestDataSource, AuthService, ConnectionService]
 })
 export class ModelModule { }
