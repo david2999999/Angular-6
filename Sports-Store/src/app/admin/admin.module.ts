@@ -6,7 +6,7 @@ import { AuthComponent } from "./auth/auth.component";
 import { AdminComponent } from "./admin.component";
 import {AuthGuard} from "./auth.guard";
 import {ProductTableComponent} from "./productTable/productTable.component";
-import {ProductEditorComponent} from "./productEditor/productEditor.component.";
+import {ProductEditorComponent} from "./productEditor/productEditor.component";
 import {OrderTableComponent} from "./orderTable/orderTable.component";
 
 let routing = RouterModule.forChild([
