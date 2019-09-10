@@ -27,8 +27,7 @@
             <input type="number" class="form-control-sm"
                    style="width:5em"
                    [value]="line.quantity"
-                   (change)="cart.updateQuantity(line.product,
-$event.target.value)" />
+                   (change)="cart.updateQuantity(line.product, $event.target.value)" />
           </td>
           <td>{{line.product.name}}</td>
           <td class="text-right">
@@ -69,3 +68,4 @@ $event.target.value)" />
       </div>
     </div>
   </div>
+</div>
