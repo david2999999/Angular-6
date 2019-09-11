@@ -1,15 +1,8 @@
-<div [ngClass]="'text-white m-2 p-2 ' + getClasses()"
-     [textContent]="'Name: ' + (model.getProduct(1)?.name || 'None')">
-</div>
-
-<div [ngClass]="'text-white m-2 p-2 ' + getClasses()">
-  Name: {{ model.getProduct(1)?.name || 'None' }}
-</div>
-
 <div class="form-group m-2">
   <label>Name:</label>
   <input class="form-control" [value]="model.getProduct(1)?.name || 'None'" />
 </div>
+
 <!-- The new binding in this example specifies that the value property should be bound to the result of an
 expression that calls a method on the data model to retrieve a data object from the repository by specifying
 a key. It is possible that there is no data object with that key, in which case the repository method will
@@ -27,3 +20,13 @@ conditional operator (the ? character) to safely navigate the result returned by
     </td>
   </tr>
 </table>
+
+
+<div class="text-white m-2">
+  <div [class]="getClasses(1)">
+    The first product is {{model.getProduct(1).name}}.
+  </div>
+  <div [class]="getClasses(2)">
+    The second product is {{model.getProduct(2).name}}
+  </div>
+</div>
