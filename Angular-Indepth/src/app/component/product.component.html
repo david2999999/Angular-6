@@ -1,3 +1,7 @@
 <div class="bg-info text-white m-2 p-2">
   There are {{model.getProducts().length}} products in the model
 </div>
+
+<div [ngClass]="'text-white m-2 p-2 ' + getClasses()" >
+  Hello, World.
+</div>
