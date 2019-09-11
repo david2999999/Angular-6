@@ -5,3 +5,11 @@
 <div [ngClass]="'text-white m-2 p-2 ' + getClasses()" >
   Hello, World.
 </div>
+
+<!--The square brackets (the [ and ] characters) tell Angular that this is a one-way data binding that has an
+expression that should be evaluated. Angular will still process the binding if you omit the brackets and the
+target is a directive, but the expression won’t be evaluated, and the content between the quote characters
+will be passed to the directive as a literal value.-->
+<div ngClass="'text-white m-2 p-2 ' + getClasses()">
+  Hello, World.
+</div>
