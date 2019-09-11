@@ -6,10 +6,13 @@
   Hello, World.
 </div>
 
-<!--The square brackets (the [ and ] characters) tell Angular that this is a one-way data binding that has an
-expression that should be evaluated. Angular will still process the binding if you omit the brackets and the
-target is a directive, but the expression won’t be evaluated, and the content between the quote characters
-will be passed to the directive as a literal value.-->
-<div ngClass="'text-white m-2 p-2 ' + getClasses()">
-  Hello, World.
+<div class="form-group m-2">
+  <label>Name:</label>
+  <input class="form-control" [value]="model.getProduct(1)?.name || 'None'" />
 </div>
+<!-- The new binding in this example specifies that the value property should be bound to the result of an
+expression that calls a method on the data model to retrieve a data object from the repository by specifying
+a key. It is possible that there is no data object with that key, in which case the repository method will
+return null.
+To guard against using null for the host element’s value property, the binding uses the template null
+conditional operator (the ? character) to safely navigate the result returned by the method -->
