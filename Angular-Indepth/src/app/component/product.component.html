@@ -16,3 +16,14 @@ a key. It is possible that there is no data object with that key, in which case 
 return null.
 To guard against using null for the host element’s value property, the binding uses the template null
 conditional operator (the ? character) to safely navigate the result returned by the method -->
+
+<table class="table table-sm table-bordered table-striped mt-2">
+  <tr>
+    <th>1</th><th>2</th><th>3</th><th>4</th><th>5</th>
+  </tr>
+  <tr>
+    <td [attr.colspan]="model.getProducts().length">
+      {{model.getProduct(1)?.name || 'None'}}
+    </td>
+  </tr>
+</table>
