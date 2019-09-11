@@ -1,9 +1,9 @@
-<div class="bg-info text-white m-2 p-2">
-  There are {{model.getProducts().length}} products in the model
+<div [ngClass]="'text-white m-2 p-2 ' + getClasses()"
+     [textContent]="'Name: ' + (model.getProduct(1)?.name || 'None')">
 </div>
 
-<div [ngClass]="'text-white m-2 p-2 ' + getClasses()" >
-  Hello, World.
+<div [ngClass]="'text-white m-2 p-2 ' + getClasses()">
+  Name: {{ model.getProduct(1)?.name || 'None' }}
 </div>
 
 <div class="form-group m-2">
