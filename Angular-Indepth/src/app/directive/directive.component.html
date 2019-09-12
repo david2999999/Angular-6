@@ -11,6 +11,8 @@
     The first product isn't a Kayak
   </div>
 
+  <br><br>
+
   <div class="bg-info p-2 mt-1" [ngSwitch]="getProductCount()">
     <span *ngSwitchCase="2">There are two products</span>
     <span *ngSwitchCase="5">There are five products</span>
@@ -22,4 +24,15 @@
     <span *ngSwitchCase="'Lifejacket'">Lifejacket</span>
     <span *ngSwitchDefault>Other Product</span>
   </div>
+
+  <br><br>
+
+  <table class="table table-sm table-bordered mt-1 text-dark">
+    <tr><th>Name</th><th>Category</th><th>Price</th></tr>
+    <tr *ngFor="let item of getProducts()">
+      <td>{{item.name}}</td>
+      <td>{{item.category}}</td>
+      <td>{{item.price}}</td>
+    </tr>
+  </table>
 </div>
