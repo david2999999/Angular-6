@@ -1,0 +1,16 @@
+<div class="m-2">
+  <div class="bg-info text-white mb-2 p-2">Model Data: {{jsonProduct}}</div>
+  <div class="form-group">
+    <label>Name</label>
+    <input class="form-control" [(ngModel)]="newProduct.name" />
+  </div>
+  <div class="form-group">
+    <label>Category</label>
+    <input class="form-control" [(ngModel)]="newProduct.category" />
+  </div>
+  <div class="form-group">
+    <label>Price</label>
+    <input class="form-control" [(ngModel)]="newProduct.price" />
+  </div>
+  <button class="btn btn-primary" (click)="addProduct(newProduct)">Create</button>
+</div>
