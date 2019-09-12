@@ -16,4 +16,10 @@
     <span *ngSwitchCase="5">There are five products</span>
     <span *ngSwitchDefault>This is the default</span>
   </div>
+
+  <div class="bg-info p-2 mt-1" [ngSwitch]="getProduct(1).name">
+    <span *ngSwitchCase="targetName">Kayak</span>
+    <span *ngSwitchCase="'Lifejacket'">Lifejacket</span>
+    <span *ngSwitchDefault>Other Product</span>
+  </div>
 </div>
