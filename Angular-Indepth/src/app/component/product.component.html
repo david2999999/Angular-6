@@ -65,3 +65,15 @@ conditional operator (the ? character) to safely navigate the result returned by
     product is {{model.getProduct(2).name}}
   </div>
 </div>
+
+
+<div class="text-white m-2">
+  <div class="p-2 bg-warning">
+    The <span [ngStyle]="getStyles(1)">first</span>
+    product is {{model.getProduct(1).name}}.
+  </div>
+  <div class="p-2 bg-info">
+    The <span [ngStyle]="getStyles(2)">second</span>
+    product is {{model.getProduct(2).name}}
+  </div>
+</div>

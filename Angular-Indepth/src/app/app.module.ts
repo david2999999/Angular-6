@@ -3,10 +3,11 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import {ProductComponent} from "./component/product.component";
+import { DirectiveComponent } from './directive/directive.component';
 
 @NgModule({
   declarations: [
-    AppComponent, ProductComponent
+    AppComponent, ProductComponent, DirectiveComponent
   ],
   imports: [
     BrowserModule
