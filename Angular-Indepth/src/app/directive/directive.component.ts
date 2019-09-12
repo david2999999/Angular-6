@@ -15,6 +15,10 @@ export class DirectiveComponent {
     (<any>window).model = this.model;
   }
 
+  getKey(index: number, product: Product) {
+    return product.id;
+  }
+
   getProductByPosition(position: number): Product {
     return this.model.getProducts()[position];
   }
