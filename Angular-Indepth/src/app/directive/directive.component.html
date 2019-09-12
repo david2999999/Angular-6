@@ -10,4 +10,10 @@
   <div *ngIf="getProductByPosition(0).name != 'Kayak'" class="bg-info p-2 mt-1">
     The first product isn't a Kayak
   </div>
+
+  <div class="bg-info p-2 mt-1" [ngSwitch]="getProductCount()">
+    <span *ngSwitchCase="2">There are two products</span>
+    <span *ngSwitchCase="5">There are five products</span>
+    <span *ngSwitchDefault>This is the default</span>
+  </div>
 </div>
