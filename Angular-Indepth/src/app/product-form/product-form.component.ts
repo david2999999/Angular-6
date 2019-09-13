@@ -65,4 +65,13 @@ export class ProductFormComponent {
       this.formSubmitted = false;
     }
   }
+
+  getFormValidationMessages(form: NgForm): string[] {
+    let messages: string[] = [];
+    Object.keys(form.controls).forEach(k => {
+      this.getValidationMessages(form.controls[k], k)
+        .forEach(m => messages.push(m));
+    });
+    return messages;
+  }
 }
