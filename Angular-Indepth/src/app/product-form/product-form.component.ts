@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {Model} from "../model/repository.model";
 import {Product} from "../model/product.model";
+import {NgForm} from "@angular/forms";
 
 @Component({
   selector: 'app-product-form',
@@ -51,5 +52,17 @@ export class ProductFormComponent {
       }
     }
     return messages;
+  }
+
+  formSubmitted: boolean = false;
+
+  submitForm(form: NgForm) {
+    this.formSubmitted = true;
+    if (form.valid) {
+      this.addProduct(this.newProduct);
+      this.newProduct = new Product();
+      form.reset();
+      this.formSubmitted = false;
+    }
   }
 }
