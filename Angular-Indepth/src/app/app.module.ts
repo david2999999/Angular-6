@@ -8,10 +8,11 @@ import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import { FormComponent } from './form/form.component';
 import { ProductFormComponent } from './product-form/product-form.component';
 import { ModelBasedFormComponent } from './model-based-form/model-based-form.component';
+import { TemplateComponent } from './attribute-directives/template/template.component';
 
 @NgModule({
   declarations: [
-    AppComponent, ProductComponent, DirectiveComponent, FormComponent, ProductFormComponent, ModelBasedFormComponent
+    AppComponent, ProductComponent, DirectiveComponent, FormComponent, ProductFormComponent, ModelBasedFormComponent, TemplateComponent
   ],
   imports: [
     BrowserModule, FormsModule, ReactiveFormsModule
