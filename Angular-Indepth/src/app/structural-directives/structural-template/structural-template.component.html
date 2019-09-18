@@ -5,21 +5,11 @@
       Show Table
     </label>
   </div>
-  <ng-template [paIf]="showTable">
-    <table class="table table-sm table-bordered table-striped">
-      <tr><th></th><th>Name</th><th>Category</th><th>Price</th></tr>
-      <tbody class="text-white">
-      <tr *ngFor="let item of getProducts(); let i = index"
-          [pa-attr]="getProducts().length < 6 ? 'bg-success' : 'bg-warning'"
-          [pa-product]="item" (pa-category)="newProduct.category=$event">
-        <td>{{i + 1}}</td>
-        <td>{{item.name}}</td>
-        <td [pa-attr]="item.category == 'Soccer' ? 'bg-info' : null">
-          {{item.category}}
-        </td>
-        <td [pa-attr]="'bg-info'">{{item.price}}</td>
-      </tr>
-      </tbody>
-    </table>
-  </ng-template>
+  <table *paIf="showTable"
+         class="table table-sm table-bordered table-striped">
+    <tr><th></th><th>Name</th><th>Category</th><th>Price</th></tr>
+    <ng-template [paForOf]="getProducts()" let-item>
+      <tr><td colspan="4">{{item.name}}</td></tr>
+    </ng-template>
+  </table>
 </div>
