@@ -24,11 +24,17 @@ export class StructuralTemplateComponent {
   }
 
   newProduct: Product = new Product();
+
   addProduct(p: Product) {
     this.model.saveProduct(p);
   }
 
+  deleteProduct(key: number) {
+    this.model.deleteProduct(key);
+  }
+
   formSubmitted: boolean = false;
+
   submitForm(form: NgForm) {
     this.formSubmitted = true;
     if (form.valid) {
