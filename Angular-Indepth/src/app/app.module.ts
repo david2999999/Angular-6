@@ -9,10 +9,16 @@ import { FormComponent } from './form/form.component';
 import { ProductFormComponent } from './product-form/product-form.component';
 import { ModelBasedFormComponent } from './model-based-form/model-based-form.component';
 import { TemplateComponent } from './attribute-directives/template/template.component';
+import {PaAttrDirective} from "./attribute-directives/directives/attr.directive";
+import {PaModel} from "./attribute-directives/directives/twoway.directive";
+import { StructuralTemplateComponent } from './structural-directives/structural-template/structural-template.component';
+import {PaStructureDirective} from "./attribute-directives/directives/structure.directive";
+import {PaIteratorDirective} from "./attribute-directives/directives/iterator.directive";
 
 @NgModule({
   declarations: [
-    AppComponent, ProductComponent, DirectiveComponent, FormComponent, ProductFormComponent, ModelBasedFormComponent, TemplateComponent
+    AppComponent, ProductComponent, DirectiveComponent, FormComponent, ProductFormComponent,
+    ModelBasedFormComponent, TemplateComponent, PaAttrDirective, PaModel, StructuralTemplateComponent, PaStructureDirective, PaIteratorDirective
   ],
   imports: [
     BrowserModule, FormsModule, ReactiveFormsModule
