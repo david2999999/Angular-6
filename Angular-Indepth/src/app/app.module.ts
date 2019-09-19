@@ -14,11 +14,14 @@ import {PaModel} from "./attribute-directives/directives/twoway.directive";
 import { StructuralTemplateComponent } from './structural-directives/structural-template/structural-template.component';
 import {PaStructureDirective} from "./attribute-directives/directives/structure.directive";
 import {PaIteratorDirective} from "./attribute-directives/directives/iterator.directive";
+import {PaCellColor} from "./attribute-directives/directives/cellColor.directive";
+import {PaCellColorSwitcher} from "./attribute-directives/directives/cellColorSwitcher.directive";
 
 @NgModule({
   declarations: [
     AppComponent, ProductComponent, DirectiveComponent, FormComponent, ProductFormComponent,
-    ModelBasedFormComponent, TemplateComponent, PaAttrDirective, PaModel, StructuralTemplateComponent, PaStructureDirective, PaIteratorDirective
+    ModelBasedFormComponent, TemplateComponent, PaAttrDirective, PaModel, StructuralTemplateComponent,
+    PaStructureDirective, PaIteratorDirective, PaCellColor, PaCellColorSwitcher
   ],
   imports: [
     BrowserModule, FormsModule, ReactiveFormsModule
