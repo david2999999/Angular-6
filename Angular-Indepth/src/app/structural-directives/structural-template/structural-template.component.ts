@@ -13,6 +13,7 @@ export class StructuralTemplateComponent {
   model: Model = new Model();
   form: ProductFormGroup = new ProductFormGroup();
 
+  darkColor: boolean = false;
   showTable: boolean = true;
 
   getProduct(key: number): Product {
