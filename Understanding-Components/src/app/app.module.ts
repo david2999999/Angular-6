@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { ProductTableComponent } from './product/product-table/product-table.component';
 import { ProductFormComponent } from './product/product-form/product-form.component';
 import { ProductComponent } from './product/product.component';
+import {PaIteratorDirective} from "./directives/iterator.directive";
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductTableComponent,
     ProductFormComponent,
-    ProductComponent
+    ProductComponent,
+    PaIteratorDirective
   ],
   imports: [
     BrowserModule

@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8c12dd8-10c3-4991-93a2-eec203370119" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Understanding-Components/src/app/model/datasource.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Understanding-Components/src/app/model/product-form.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Understanding-Components/src/app/model/product.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Understanding-Components/src/app/model/repository.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Understanding-Components/src/app/validators/limit.formvalidator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Understanding-Components/src/app/directives/attr.directive.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Understanding-Components/src/app/directives/cellColor.directive.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Understanding-Components/src/app/directives/cellColorSwitcher.directive.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Understanding-Components/src/app/directives/iterator.directive.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Understanding-Components/src/app/directives/structure.directive.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Understanding-Components/src/app/directives/twoway.directive.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Understanding-Components/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Understanding-Components/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Understanding-Components/src/app/product/product-table/product-table.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Understanding-Components/src/app/product/product-table/product-table.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Understanding-Components/src/app/product/product-table/product-table.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Understanding-Components/src/app/product/product-table/product-table.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Understanding-Components/src/app/product/product.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Understanding-Components/src/app/product/product.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Understanding-Components/src/app/product/product.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Understanding-Components/src/app/product/product.component.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,33 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/app.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="9" selection-start-column="9" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/product/product-form/product-form.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="20" selection-start-column="20" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/product/product-form/product-form.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/product/product.component.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -68,31 +40,69 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/product/product-table/product-table.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="53" lean-forward="true" selection-start-column="53" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Angular-Indepth/src/app/structural-directives/structural-template/structural-template.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-end-line="13" />
+            <state relative-caret-position="360">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
-                <element signature="e#0#50#0" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#1;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#2;n#tr#1;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#3;n#tr#1;n#table#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/product/product.component.ts">
+        <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/directives/attr.directive.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#111#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/directives/cellColor.directive.ts">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/directives/cellColorSwitcher.directive.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#131#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/directives/iterator.directive.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
-              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+              <caret line="8" column="32" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="32" />
               <folding>
-                <element signature="e#0#50#0" expanded="true" />
+                <element signature="e#0#166#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/app.component.ts">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,18 +111,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/product/product-table/product-table.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
+            <state relative-caret-position="360">
               <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
               <folding>
                 <element signature="e#0#55#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/model/product.model.ts">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -141,7 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Sports-Store/serverdata.json" />
         <option value="$PROJECT_DIR$/Sports-Store/server.js" />
         <option value="$PROJECT_DIR$/Sports-Store/src/app/model/datasource/rest.datasource.ts" />
         <option value="$PROJECT_DIR$/Angular-Indepth/angular.json" />
@@ -192,6 +196,7 @@
         <option value="$PROJECT_DIR$/Understanding-Components/src/app/product/product.component.ts" />
         <option value="$PROJECT_DIR$/Understanding-Components/src/app/product/product.component.html" />
         <option value="$PROJECT_DIR$/Understanding-Components/src/app/product/product-table/product-table.component.html" />
+        <option value="$PROJECT_DIR$/Understanding-Components/src/app/app.module.ts" />
       </list>
     </option>
   </component>
@@ -259,6 +264,14 @@
               <item name="Understanding-Components" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="directives" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Angular-6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Angular-6" type="462c0819:PsiDirectoryNode" />
+              <item name="Understanding-Components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="product" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -295,11 +308,11 @@
       <recent name="C:\Users\DJiang\WebstormProjects\Angular-6\Understanding-Components\src\app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DJiang\WebstormProjects\Angular-6\Understanding-Components\src\app" />
       <recent name="C:\Users\DJiang\WebstormProjects\Angular-6\Understanding-Components\src\app\product" />
       <recent name="C:\Users\DJiang\WebstormProjects\Angular-6\Angular-Indepth\src\app\model" />
       <recent name="C:\Users\DJiang\WebstormProjects\Angular-6\Sports-Store\src\app\model\auth" />
       <recent name="C:\Users\DJiang\WebstormProjects\Angular-6\Sports-Store\src\app\model\order" />
-      <recent name="C:\Users\DJiang\WebstormProjects\Angular-6\Sports-Store\src\app\model\datasource" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -348,12 +361,12 @@
       <workItem from="1568892615029" duration="2991000" />
       <workItem from="1568896542556" duration="206000" />
       <workItem from="1568896775955" duration="2101000" />
-      <workItem from="1568982168183" duration="7375000" />
+      <workItem from="1568982168183" duration="7677000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134695000" />
+    <option name="totallyTimeSpent" value="134997000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -389,57 +402,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Angular-Indepth/src/app/directive/directive.component.spec.ts" />
-    <entry file="file://$PROJECT_DIR$/Angular-Indepth/src/app/directive/directive.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1680">
-          <caret line="70" column="8" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular-Indepth/src/app/directive/directive.component.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular-Indepth/src/app/form/form.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2064">
-          <caret line="86" column="26" selection-start-line="86" selection-start-column="26" selection-end-line="86" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular-Indepth/src/app/product-form/product-form.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="53" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular-Indepth/src/app/product-form/product-form.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1152">
-          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular-Indepth/src/app/product-form/product-form.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular-Indepth/src/app/product-form/product-form.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1728">
-          <caret line="75" column="3" selection-start-line="75" selection-start-column="3" selection-end-line="75" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Angular-Indepth/src/app/app.component.spec.ts" />
     <entry file="file://$PROJECT_DIR$/Angular-Indepth/src/app/model-based-form/model-based-form.component.spec.ts" />
     <entry file="file://$PROJECT_DIR$/Angular-Indepth/src/app/app.component.css">
@@ -659,9 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -685,16 +644,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/model/product.model.ts">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/product/product-table/product-table.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Angular-Indepth/src/app/structural-directives/structural-template/structural-template.component.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -726,10 +675,81 @@
     <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/validators/limit.formvalidator.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/product/product-table/product-table.component.html">
+    <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/product/product-table/product-table.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/directive/directive.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/directive/directive.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/attribute-directives/template/template.component.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/directives/attr.directive.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="53" lean-forward="true" selection-start-column="53" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/directives/cellColor.directive.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/directives/cellColorSwitcher.directive.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#131#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/directives/iterator.directive.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#166#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/product/product-table/product-table.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#1;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#1;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#3;n#tr#1;n#table#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
