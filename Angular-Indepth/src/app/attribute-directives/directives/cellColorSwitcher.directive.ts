@@ -13,8 +13,15 @@ export class PaCellColorSwitcher {
 
   @ContentChildren(PaCellColor)
   contentChildren: QueryList<PaCellColor>;
+
   ngOnChanges(changes: { [property: string]: SimpleChange }) {
     this.updateContentChildren(changes["modelProperty"].currentValue);
+  }
+
+  ngAfterContentInit() {
+    this.contentChildren.changes.subscribe(() => {
+      setTimeout(() => this.updateContentChildren(this.modelProperty), 0);
+    });
   }
 
   private updateContentChildren(dark: Boolean) {
