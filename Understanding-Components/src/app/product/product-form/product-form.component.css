@@ -5,3 +5,7 @@ div {
 :host:hover {
   font-size: 25px;
 }
+
+:host-context(.angularApp) input {
+  background-color: lightgray;
+}
