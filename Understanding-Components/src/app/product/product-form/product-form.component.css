@@ -1,0 +1,7 @@
+div {
+  background-color: lightcoral;
+}
+
+:host:hover {
+  font-size: 25px;
+}
