@@ -1,6 +1,7 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, Input, OnInit, QueryList, ViewChildren} from '@angular/core';
 import {Model} from "../../model/repository.model";
 import {Product} from "../../model/product.model";
+import {PaCellColor} from "../../directives/cellColor.directive";
 
 @Component({
   selector: 'paProductTable',
@@ -25,4 +26,22 @@ export class ProductTableComponent {
   }
 
   showTable: boolean = true;
+
+  @ViewChildren(PaCellColor)
+  viewChildren: QueryList<PaCellColor>;
+
+  ngAfterViewInit() {
+    this.viewChildren.changes.subscribe(() => {
+      this.updateViewChildren();
+    });
+    this.updateViewChildren();
+  }
+
+  private updateViewChildren() {
+    setTimeout(() => {
+      this.viewChildren.forEach((child, index) => {
+        child.setColor(index % 2 ? true : false);
+      })
+    }, 0);
+  }
 }
