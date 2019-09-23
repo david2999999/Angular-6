@@ -8,6 +8,9 @@ import { ProductComponent } from './product/product.component';
 import {PaIteratorDirective} from "./directives/iterator.directive";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import { ToggleViewComponent } from './toggle-view/toggle-view.component';
+import {PaCellColorSwitcher} from "./directives/cellColorSwitcher.directive";
+import {PaCellColor} from "./directives/cellColor.directive";
+import {PaStructureDirective} from "./directives/structure.directive";
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { ToggleViewComponent } from './toggle-view/toggle-view.component';
     ProductFormComponent,
     ProductComponent,
     PaIteratorDirective,
-    ToggleViewComponent
+    ToggleViewComponent,
+    PaCellColorSwitcher,
+    PaCellColor,
+    PaStructureDirective
   ],
   imports: [
     BrowserModule, FormsModule, ReactiveFormsModule

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8c12dd8-10c3-4991-93a2-eec203370119" name="Default Changelist" comment="" />
+    <list default="true" id="a8c12dd8-10c3-4991-93a2-eec203370119" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Understanding-Components/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Understanding-Components/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Understanding-Components/src/app/product/product-table/product-table.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Understanding-Components/src/app/product/product-table/product-table.component.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/product/product.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -26,44 +30,78 @@
         <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/toggle-view/toggle-view.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/product/product.component.ts">
+        <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/product/product-table/product-table.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
               <folding>
-                <element signature="e#0#50#0" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#1;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#2;n#tr#1;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#3;n#tr#1;n#table#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/app.component.html">
+        <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/directives/cellColorSwitcher.directive.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="9" selection-start-column="9" selection-end-column="9" />
+            <state relative-caret-position="216">
+              <caret line="9" column="32" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#131#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/toggle-view/toggle-view.component.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/app.component.spec.ts">
+        <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/directives/twoway.directive.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <folding>
-                <element signature="e#0#55#0" expanded="true" />
+                <element signature="e#0#114#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/directives/structure.directive.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" column="33" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#96#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/directives/cellColor.directive.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -71,25 +109,6 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/product/product.component.css">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/app.component.ts">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/app.component.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/toggle-view/toggle-view.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -118,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Angular-Indepth/angular.json" />
         <option value="$PROJECT_DIR$/Angular-Indepth/src/app/product.model.ts" />
         <option value="$PROJECT_DIR$/Angular-Indepth/src/app/datasource.model.ts" />
         <option value="$PROJECT_DIR$/Angular-Indepth/src/app/component/template.html.ts" />
@@ -161,14 +179,15 @@
         <option value="$PROJECT_DIR$/Understanding-Components/angular.json" />
         <option value="$PROJECT_DIR$/Understanding-Components/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/Understanding-Components/src/app/product/product-table/product-table.component.ts" />
-        <option value="$PROJECT_DIR$/Understanding-Components/src/app/product/product-table/product-table.component.html" />
         <option value="$PROJECT_DIR$/Understanding-Components/src/app/product/product-form/product-form.component.ts" />
         <option value="$PROJECT_DIR$/Understanding-Components/src/app/product/product-form/product-form.component.html" />
-        <option value="$PROJECT_DIR$/Understanding-Components/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/Understanding-Components/src/app/product/product.component.ts" />
         <option value="$PROJECT_DIR$/Understanding-Components/src/app/toggle-view/toggle-view.component.ts" />
         <option value="$PROJECT_DIR$/Understanding-Components/src/app/product/product.component.html" />
         <option value="$PROJECT_DIR$/Understanding-Components/src/app/toggle-view/toggle-view.component.html" />
+        <option value="$PROJECT_DIR$/Understanding-Components/src/app/product/product.component.css" />
+        <option value="$PROJECT_DIR$/Understanding-Components/src/app/product/product-table/product-table.component.html" />
+        <option value="$PROJECT_DIR$/Understanding-Components/src/app/app.module.ts" />
       </list>
     </option>
   </component>
@@ -186,7 +205,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -197,58 +215,6 @@
             <path>
               <item name="Angular-6" type="b2602c69:ProjectViewProjectNode" />
               <item name="Angular-6" type="462c0819:PsiDirectoryNode" />
-              <item name="Angular-Indepth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Angular-6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Angular-6" type="462c0819:PsiDirectoryNode" />
-              <item name="Angular-Indepth" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Angular-6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Angular-6" type="462c0819:PsiDirectoryNode" />
-              <item name="Angular-Indepth" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Angular-6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Angular-6" type="462c0819:PsiDirectoryNode" />
-              <item name="Angular-Indepth" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="attribute-directives" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Angular-6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Angular-6" type="462c0819:PsiDirectoryNode" />
-              <item name="Angular-Indepth" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="attribute-directives" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Angular-6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Angular-6" type="462c0819:PsiDirectoryNode" />
-              <item name="Angular-Indepth" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="structural-directives" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Angular-6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Angular-6" type="462c0819:PsiDirectoryNode" />
-              <item name="Angular-Indepth" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="structural-directives" type="462c0819:PsiDirectoryNode" />
-              <item name="structural-template" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Angular-6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Angular-6" type="462c0819:PsiDirectoryNode" />
               <item name="Understanding-Components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -263,6 +229,14 @@
               <item name="Understanding-Components" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Angular-6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Angular-6" type="462c0819:PsiDirectoryNode" />
+              <item name="Understanding-Components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="directives" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Angular-6" type="b2602c69:ProjectViewProjectNode" />
@@ -278,12 +252,22 @@
               <item name="Understanding-Components" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-table" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Angular-6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Angular-6" type="462c0819:PsiDirectoryNode" />
+              <item name="Understanding-Components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="toggle-view" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -358,12 +342,13 @@
       <workItem from="1568892615029" duration="2991000" />
       <workItem from="1568896542556" duration="206000" />
       <workItem from="1568896775955" duration="2101000" />
-      <workItem from="1568982168183" duration="10209000" />
+      <workItem from="1568982168183" duration="10829000" />
+      <workItem from="1569236899928" duration="1187000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137529000" />
+    <option name="totallyTimeSpent" value="139336000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -399,17 +384,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Angular-Indepth/src/app/attribute-directives/template.html" />
-    <entry file="file://$PROJECT_DIR$/Angular-Indepth/src/app/model-based-form/model-based-form.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="13" column="47" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Angular-Indepth/src/app/validators/limit.formvalidator.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -565,34 +539,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/directive/directive.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/directive/directive.component.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/attribute-directives/template/template.component.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/directive/directive.component.ts" />
+    <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/directive/directive.component.html" />
+    <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/attribute-directives/template/template.component.ts" />
     <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/directives/attr.directive.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
             <element signature="e#0#111#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/directives/cellColor.directive.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/directives/cellColorSwitcher.directive.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#131#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -615,19 +569,6 @@
         <state relative-caret-position="-1080">
           <folding>
             <element signature="e#0#68#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/product/product-table/product-table.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#1;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#2;n#tr#1;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#3;n#tr#1;n#table#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -689,28 +630,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/app.module.ts">
+    <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/product/product.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        <state relative-caret-position="312">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding>
-            <element signature="e#0#58#0" expanded="true" />
+            <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/toggle-view/toggle-view.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/app.component.css">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -731,30 +659,92 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/app.component.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/toggle-view/toggle-view.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/product/product.component.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/toggle-view/toggle-view.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/product/product.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/product/product.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/product/product-table/product-table.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#1;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#1;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#3;n#tr#1;n#table#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/directives/cellColorSwitcher.directive.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#131#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/directives/cellColor.directive.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/directives/twoway.directive.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/directives/structure.directive.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#96#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
