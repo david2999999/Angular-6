@@ -5,7 +5,11 @@
     <td style="vertical-align:middle">{{i + 1}}</td>
     <td style="vertical-align:middle">{{item.name}}</td>
     <td style="vertical-align:middle">{{item.category}}</td>
-    <td style="vertical-align:middle">{{item.price}}</td>
+
+    <td style="vertical-align:middle">
+      {{item.price | currency:"USD":"symbol" }}
+    </td>
+
     <td class="text-xs-center">
       <button class="btn btn-danger btn-sm" (click)="deleteProduct(item.id)">
         Delete
