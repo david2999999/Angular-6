@@ -2,9 +2,10 @@
   <label>Tax Rate:</label>
   <select [value]="taxRate || 0" (change)="taxRate=$event.target.value">
     <option value="0">None</option>
-    <option value="10">10%</option>
-    <option value="20">20%</option>
-    <option value="50">50%</option>
+    <option value="10">{{ 0.1 | percent }}</option>
+    <option value="20">{{ 0.2 | percent }}</option>
+    <option value="50">{{ 0.5 | percent }}</option>
+    <option value="150">{{ 1.5 | percent }}</option>
   </select>
 </div>
 <div>
@@ -24,7 +25,7 @@
     <td style="vertical-align:middle">{{item.name}}</td>
     <td style="vertical-align:middle">{{item.category}}</td>
 
-    <td style="vertical-align:middle">{{item.price | number:"3.2-2" }}</td>
+    <td style="vertical-align:middle">{{item.price | addTax:(taxRate || 0) | currency:"USD":"symbol":"2.2-2" }}</td>
 
     <td class="text-xs-center">
       <button class="btn btn-danger btn-sm" (click)="deleteProduct(item.id)">
