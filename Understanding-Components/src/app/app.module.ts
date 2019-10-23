@@ -12,6 +12,7 @@ import {PaCellColorSwitcher} from "./directives/cellColorSwitcher.directive";
 import {PaCellColor} from "./directives/cellColor.directive";
 import {PaStructureDirective} from "./directives/structure.directive";
 import {addTaxPipe} from "./pipe/addTax.pipe";
+import {categoryFilterPipe} from "./pipe/ategoryFilter.pipe";
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import {addTaxPipe} from "./pipe/addTax.pipe";
     PaCellColorSwitcher,
     PaCellColor,
     PaStructureDirective,
-    addTaxPipe
+    addTaxPipe,
+    categoryFilterPipe
   ],
   imports: [
     BrowserModule, FormsModule, ReactiveFormsModule
