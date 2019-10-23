@@ -1,3 +1,12 @@
+<div>
+  <label>Tax Rate:</label>
+  <select [value]="taxRate || 0" (change)="taxRate=$event.target.value">
+    <option value="0">None</option>
+    <option value="10">10%</option>
+    <option value="20">20%</option>
+    <option value="50">50%</option>
+  </select>
+</div>
 <table class="table table-sm table-bordered table-striped">
   <tr><th></th><th>Name</th><th>Category</th><th>Price</th><th></th></tr>
   <tr *paFor="let item of getProducts(); let i = index; let odd = odd;
@@ -7,7 +16,7 @@
     <td style="vertical-align:middle">{{item.category}}</td>
 
     <td style="vertical-align:middle">
-      {{item.price | currency:"USD":"symbol" }}
+      {{item.price | addTax:(taxRate || 0) }}
     </td>
 
     <td class="text-xs-center">

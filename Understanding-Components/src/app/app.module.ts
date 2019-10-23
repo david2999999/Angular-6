@@ -11,6 +11,7 @@ import { ToggleViewComponent } from './toggle-view/toggle-view.component';
 import {PaCellColorSwitcher} from "./directives/cellColorSwitcher.directive";
 import {PaCellColor} from "./directives/cellColor.directive";
 import {PaStructureDirective} from "./directives/structure.directive";
+import {addTaxPipe} from "./pipe/addTax.pipe";
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import {PaStructureDirective} from "./directives/structure.directive";
     ToggleViewComponent,
     PaCellColorSwitcher,
     PaCellColor,
-    PaStructureDirective
+    PaStructureDirective,
+    addTaxPipe
   ],
   imports: [
     BrowserModule, FormsModule, ReactiveFormsModule
