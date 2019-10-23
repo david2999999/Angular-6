@@ -1,3 +1,8 @@
+<div class="bg-info p-2 text-white">
+  <div>Date formatted from object: {{ dateObject | date }}</div>
+  <div>Date formatted from string: {{ dateString | date }}</div>
+  <div>Date formatted from number: {{ dateNumber | date }}</div>
+</div>
 <div>
   <label>Tax Rate:</label>
   <select [value]="taxRate || 0" (change)="taxRate=$event.target.value">
