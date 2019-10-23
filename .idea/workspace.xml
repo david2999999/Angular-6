@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8c12dd8-10c3-4991-93a2-eec203370119" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Understanding-Components/src/app/pipe/addTax.pipe.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Understanding-Components/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Understanding-Components/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Understanding-Components/src/app/product/product-table/product-table.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Understanding-Components/src/app/product/product-table/product-table.component.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -30,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/product/product-table/product-table.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="73" lean-forward="true" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
+            <state relative-caret-position="188">
+              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
               <folding>
                 <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#1;n#tr#1;n#table#0;n#!!top" expanded="true" />
@@ -338,19 +335,19 @@
       <workItem from="1569324735653" duration="598000" />
       <workItem from="1570016010050" duration="49000" />
       <workItem from="1570447307347" duration="304000" />
-      <workItem from="1571852598865" duration="2146000" />
+      <workItem from="1571852598865" duration="2342000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149903000" />
+    <option name="totallyTimeSpent" value="150099000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="npm" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -363,7 +360,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32107022" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32107022" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -726,8 +723,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/product/product-table/product-table.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="73" lean-forward="true" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
+        <state relative-caret-position="188">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
           <folding>
             <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#1;n#tr#1;n#table#0;n#!!top" expanded="true" />

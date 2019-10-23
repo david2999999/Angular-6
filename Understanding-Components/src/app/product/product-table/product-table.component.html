@@ -16,7 +16,7 @@
     <td style="vertical-align:middle">{{item.category}}</td>
 
     <td style="vertical-align:middle">
-      {{item.price | addTax:(taxRate || 0) }}
+      {{item.price | addTax:(taxRate || 0) | currency:"USD":"symbol"}}
     </td>
 
     <td class="text-xs-center">
