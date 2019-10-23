@@ -27,8 +27,8 @@
         let i = index; let odd = odd; let even = even"
         [class.bg-info]="odd" [class.bg-warning]="even">
     <td style="vertical-align:middle">{{i + 1}}</td>
-    <td style="vertical-align:middle">{{item.name}}</td>
-    <td style="vertical-align:middle">{{item.category}}</td>
+    <td style="vertical-align:middle">{{item.name | uppercase }}</td>
+    <td style="vertical-align:middle">{{item.category | lowercase }}</td>
 
     <td style="vertical-align:middle">{{item.price | addTax:(taxRate || 0) | currency:"USD":"symbol":"2.2-2" }}</td>
 
@@ -39,3 +39,7 @@
     </td>
   </tr>
 </table>
+
+<div class="bg-info p-2 text-white">
+  <div>{{ getProducts() | json }}</div>
+</div>
