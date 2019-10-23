@@ -1,31 +1,16 @@
-<div class="bg-info p-2 text-white">
-  <div>Date formatted from object: {{ dateObject | date }}</div>
-  <div>Date formatted from string: {{ dateString | date }}</div>
-  <div>Date formatted from number: {{ dateNumber | date }}</div>
-</div>
 <div>
-  <label>Tax Rate:</label>
-  <select [value]="taxRate || 0" (change)="taxRate=$event.target.value">
-    <option value="0">None</option>
-    <option value="10">{{ 0.1 | percent }}</option>
-    <option value="20">{{ 0.2 | percent }}</option>
-    <option value="50">{{ 0.5 | percent }}</option>
-    <option value="150">{{ 1.5 | percent }}</option>
-  </select>
-</div>
-<div>
-  <label>Category Filter:</label>
-  <select [(ngModel)]="categoryFilter">
-    <option>Watersports</option>
-    <option>Soccer</option>
-    <option>Chess</option>
+  <label>Number of items:</label>
+  <select [value]="itemCount || 1" (change)="itemCount=$event.target.value">
+    <option *ngFor="let item of getProducts(); let i = index" [value]="i + 1">
+      {{i + 1}}
+    </option>
   </select>
 </div>
 <table class="table table-sm table-bordered table-striped">
   <tr><th></th><th>Name</th><th>Category</th><th>Price</th><th></th></tr>
-  <tr *paFor="let item of getProducts() | filter:categoryFilter;
-        let i = index; let odd = odd; let even = even"
-        [class.bg-info]="odd" [class.bg-warning]="even">
+  <tr *paFor="let item of getProducts() | slice:0:(itemCount || 1);
+let i = index; let odd = odd; let even = even"
+      [class.bg-info]="odd" [class.bg-warning]="even">
     <td style="vertical-align:middle">{{i + 1}}</td>
     <td style="vertical-align:middle">{{item.name | uppercase }}</td>
     <td style="vertical-align:middle">{{item.category | lowercase }}</td>
