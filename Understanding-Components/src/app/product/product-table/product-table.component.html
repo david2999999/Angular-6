@@ -7,7 +7,10 @@
   </select>
 </div>
 <table class="table table-sm table-bordered table-striped">
-  <tr><th></th><th>Name</th><th>Category</th><th>Price</th><th></th></tr>
+  <tr>
+    <th></th><th>Name</th><th>Category</th><th>Price</th>
+    <th>Discount</th><th></th>
+  </tr>
   <tr *paFor="let item of getProducts(); let i = index;
       let odd = odd; let even = even" [class.bg-info]="odd"
       [class.bg-warning]="even">
@@ -16,6 +19,10 @@
     <td style="vertical-align:middle">{{item.category}}</td>
     <td style="vertical-align:middle">
       {{item.price | discount | currency:"USD":"symbol" }}
+    </td>
+    <td style="vertical-align:middle" [pa-price]="item.price"
+        #discount="discount">
+      {{ discount.discountAmount | currency:"USD":"symbol"}}
     </td>
     <td class="text-center">
       <button class="btn btn-danger btn-sm" (click)="deleteProduct(item.id)">

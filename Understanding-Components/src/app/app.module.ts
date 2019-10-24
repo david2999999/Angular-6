@@ -19,6 +19,7 @@ import { DiscountDisplayComponent } from './product/discount-display/discount-di
 import { DiscountEditorComponent } from './product/discount-editor/discount-editor.component';
 import {DiscountService} from "./service/discount.service";
 import {DiscountPipe} from "./pipe/discount.pipe";
+import {DiscountAmountDirective} from "./directives/discountAmount.directive";
 
 registerLocaleData(localeFr);
 
@@ -33,6 +34,7 @@ registerLocaleData(localeFr);
     PaCellColorSwitcher,
     PaCellColor,
     PaStructureDirective,
+    DiscountAmountDirective,
     addTaxPipe,
     categoryFilterPipe,
     DiscountPipe,
