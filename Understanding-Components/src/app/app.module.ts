@@ -22,7 +22,7 @@ import {DiscountPipe} from "./pipe/discount.pipe";
 import {DiscountAmountDirective} from "./directives/discountAmount.directive";
 import {SimpleDataSource} from "./model/datasource.model";
 import {Model} from "./model/repository.model";
-import {LogService} from "./service/log.service";
+import {LOG_SERVICE, LogService} from "./service/log.service";
 
 registerLocaleData(localeFr);
 
@@ -47,7 +47,7 @@ registerLocaleData(localeFr);
   imports: [
     BrowserModule, FormsModule, ReactiveFormsModule
   ],
-  providers: [DiscountService, { provide: "logger", useClass: LogService }, SimpleDataSource, Model],
+  providers: [DiscountService, { provide: LOG_SERVICE, useClass: LogService }, SimpleDataSource, Model],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
