@@ -20,6 +20,8 @@ import { DiscountEditorComponent } from './product/discount-editor/discount-edit
 import {DiscountService} from "./service/discount.service";
 import {DiscountPipe} from "./pipe/discount.pipe";
 import {DiscountAmountDirective} from "./directives/discountAmount.directive";
+import {SimpleDataSource} from "./model/datasource.model";
+import {Model} from "./model/repository.model";
 
 registerLocaleData(localeFr);
 
@@ -44,7 +46,7 @@ registerLocaleData(localeFr);
   imports: [
     BrowserModule, FormsModule, ReactiveFormsModule
   ],
-  providers: [DiscountService],
+  providers: [DiscountService, SimpleDataSource, Model],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

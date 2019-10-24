@@ -8,7 +8,9 @@ import {Product} from "../../../../Angular-Indepth/src/app/model/product.model";
   styleUrls: ['./product.component.css']
 })
 export class ProductComponent {
-  model: Model = new Model();
+  // model: Model = new Model();
+
+  constructor(private model: Model) { }
 
   addProduct(p: Product) {
     this.model.saveProduct(p);
