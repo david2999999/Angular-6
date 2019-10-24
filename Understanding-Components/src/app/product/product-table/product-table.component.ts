@@ -2,6 +2,7 @@ import {Component, Input, OnInit, QueryList, ViewChildren} from '@angular/core';
 import {Model} from "../../model/repository.model";
 import {Product} from "../../model/product.model";
 import {PaCellColor} from "../../directives/cellColor.directive";
+import {DiscountService} from "../../service/discount.service";
 
 @Component({
   selector: 'paProductTable',

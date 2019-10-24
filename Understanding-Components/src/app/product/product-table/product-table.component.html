@@ -8,16 +8,16 @@
 </div>
 <table class="table table-sm table-bordered table-striped">
   <tr><th></th><th>Name</th><th>Category</th><th>Price</th><th></th></tr>
-  <tr *paFor="let item of getProducts() | slice:0:(itemCount || 1);
-let i = index; let odd = odd; let even = even"
-      [class.bg-info]="odd" [class.bg-warning]="even">
+  <tr *paFor="let item of getProducts(); let i = index;
+      let odd = odd; let even = even" [class.bg-info]="odd"
+      [class.bg-warning]="even">
     <td style="vertical-align:middle">{{i + 1}}</td>
-    <td style="vertical-align:middle">{{item.name | uppercase }}</td>
-    <td style="vertical-align:middle">{{item.category | lowercase }}</td>
-
-    <td style="vertical-align:middle">{{item.price | addTax:(taxRate || 0) | currency:"USD":"symbol":"2.2-2" }}</td>
-
-    <td class="text-xs-center">
+    <td style="vertical-align:middle">{{item.name}}</td>
+    <td style="vertical-align:middle">{{item.category}}</td>
+    <td style="vertical-align:middle">
+      {{item.price | currency:"USD":"symbol" }}
+    </td>
+    <td class="text-center">
       <button class="btn btn-danger btn-sm" (click)="deleteProduct(item.id)">
         Delete
       </button>
@@ -25,6 +25,5 @@ let i = index; let odd = odd; let even = even"
   </tr>
 </table>
 
-<div class="bg-info p-2 text-white">
-  <div>{{ getProducts() | json }}</div>
-</div>
+<DiscountEditor></DiscountEditor>
+<DiscountDisplay></DiscountDisplay>

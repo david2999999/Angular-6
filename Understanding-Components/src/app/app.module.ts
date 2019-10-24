@@ -15,6 +15,9 @@ import {addTaxPipe} from "./pipe/addTax.pipe";
 import {categoryFilterPipe} from "./pipe/ategoryFilter.pipe";
 import localeFr from '@angular/common/locales/fr';
 import {registerLocaleData} from "@angular/common";
+import { DiscountDisplayComponent } from './product/discount-display/discount-display.component';
+import { DiscountEditorComponent } from './product/discount-editor/discount-editor.component';
+import {DiscountService} from "./service/discount.service";
 
 registerLocaleData(localeFr);
 
@@ -30,14 +33,14 @@ registerLocaleData(localeFr);
     PaCellColor,
     PaStructureDirective,
     addTaxPipe,
-    categoryFilterPipe
+    categoryFilterPipe,
+    DiscountDisplayComponent,
+    DiscountEditorComponent
   ],
   imports: [
     BrowserModule, FormsModule, ReactiveFormsModule
   ],
-  // providers: [{
-  //   provide: LOCALE_ID, useValue: "fr-FR"
-  // }],
+  providers: [DiscountService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
