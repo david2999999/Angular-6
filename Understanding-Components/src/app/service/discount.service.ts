@@ -1,8 +1,11 @@
-import { Injectable } from "@angular/core";
+import {Inject, Injectable} from "@angular/core";
+import {LogService} from "./log.service";
 
 @Injectable()
 export class DiscountService {
   private discountValue: number = 10;
+
+  constructor(@Inject("logger") private logger: LogService) { }
 
   public get discount(): number {
     return this.discountValue;
@@ -13,6 +16,7 @@ export class DiscountService {
   }
 
   public applyDiscount(price: number) {
+    this.logger.logInfoMessage(`Discount ${this.discount} applied to price: ${price}`);
     return Math.max(price - this.discountValue, 5);
   }
 }
