@@ -15,7 +15,7 @@
     <td style="vertical-align:middle">{{item.name}}</td>
     <td style="vertical-align:middle">{{item.category}}</td>
     <td style="vertical-align:middle">
-      {{item.price | currency:"USD":"symbol" }}
+      {{item.price | discount | currency:"USD":"symbol" }}
     </td>
     <td class="text-center">
       <button class="btn btn-danger btn-sm" (click)="deleteProduct(item.id)">
