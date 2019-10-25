@@ -22,7 +22,7 @@ import {DiscountPipe} from "./pipe/discount.pipe";
 import {DiscountAmountDirective} from "./directives/discountAmount.directive";
 import {SimpleDataSource} from "./model/datasource.model";
 import {Model} from "./model/repository.model";
-import {LOG_SERVICE, LogLevel, LogService, SpecialLogService} from "./service/log.service";
+import {LOG_LEVEL, LOG_SERVICE, LogLevel, LogService, SpecialLogService} from "./service/log.service";
 
 let logger = new LogService();
 logger.minimumLevel = LogLevel.DEBUG;
@@ -48,10 +48,16 @@ logger.minimumLevel = LogLevel.DEBUG;
   imports: [
     BrowserModule, FormsModule, ReactiveFormsModule
   ],
-  providers: [DiscountService,
-              SimpleDataSource,
-              Model,
-              { provide: LogService, useValue: logger }],
+  providers: [DiscountService, SimpleDataSource, Model,
+              { provide: LOG_LEVEL, useValue: LogLevel.DEBUG },
+              { provide: LogService,
+                deps: [LOG_LEVEL],
+                useFactory: (level) => {
+                  let logger = new LogService();
+                  logger.minimumLevel = level;
+                  return logger;
+                }
+              }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
