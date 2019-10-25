@@ -50,8 +50,9 @@ logger.minimumLevel = LogLevel.DEBUG;
   ],
   providers: [DiscountService, SimpleDataSource, Model,
               { provide: LOG_LEVEL, useValue: LogLevel.DEBUG },
+              { provide: "debugLevel", useExisting: LOG_LEVEL },
               { provide: LogService,
-                deps: [LOG_LEVEL],
+                deps: ["debugLevel"],
                 useFactory: (level) => {
                   let logger = new LogService();
                   logger.minimumLevel = level;
