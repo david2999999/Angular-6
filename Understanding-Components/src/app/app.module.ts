@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import {LOCALE_ID, NgModule} from '@angular/core';
+import {NgModule} from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { ProductTableComponent } from './product/product-table/product-table.component';
@@ -22,7 +22,7 @@ import {DiscountPipe} from "./pipe/discount.pipe";
 import {DiscountAmountDirective} from "./directives/discountAmount.directive";
 import {SimpleDataSource} from "./model/datasource.model";
 import {Model} from "./model/repository.model";
-import {LOG_SERVICE, LogService} from "./service/log.service";
+import {LOG_SERVICE, LogService, SpecialLogService} from "./service/log.service";
 
 registerLocaleData(localeFr);
 
@@ -47,7 +47,11 @@ registerLocaleData(localeFr);
   imports: [
     BrowserModule, FormsModule, ReactiveFormsModule
   ],
-  providers: [DiscountService, { provide: LOG_SERVICE, useClass: LogService }, SimpleDataSource, Model],
+  providers: [DiscountService,
+              SimpleDataSource,
+              Model,
+              { provide: LOG_SERVICE, useClass: LogService, multi: true },
+              { provide: LOG_SERVICE, useClass: SpecialLogService, multi: true }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
