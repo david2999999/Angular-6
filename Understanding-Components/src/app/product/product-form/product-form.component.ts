@@ -8,7 +8,7 @@ import {VALUE_SERVICE} from "../../directives/valueDisplay.directive";
   selector: 'paProductForm',
   templateUrl: './product-form.component.html',
   styleUrls: ['./product-form.component.css'],
-  providers: [{ provide: VALUE_SERVICE, useValue: "Oranges" }]
+  viewProviders: [{ provide: VALUE_SERVICE, useValue: "Oranges" }]
 })
 export class ProductFormComponent {
   form: ProductFormGroup = new ProductFormGroup();
