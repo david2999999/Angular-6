@@ -1,13 +1,13 @@
 import {Component, Input, OnInit, QueryList, ViewChildren} from '@angular/core';
 import {Model} from "../../model/repository.model";
 import {Product} from "../../model/product.model";
-import {PaCellColor} from "../../directives/cellColor.directive";
-import {DiscountService} from "../../service/discount.service";
+import {LogService} from "../../service/log.service";
 
 @Component({
   selector: 'paProductTable',
   templateUrl: './product-table.component.html',
-  styleUrls: ['./product-table.component.css']
+  styleUrls: ['./product-table.component.css'],
+  providers:[LogService]
 })
 export class ProductTableComponent {
 
