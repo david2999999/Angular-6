@@ -23,6 +23,7 @@ import {DiscountAmountDirective} from "./directives/discountAmount.directive";
 import {SimpleDataSource} from "./model/datasource.model";
 import {Model} from "./model/repository.model";
 import {LOG_LEVEL, LOG_SERVICE, LogLevel, LogService, SpecialLogService} from "./service/log.service";
+import {PaDisplayValueDirective, VALUE_SERVICE} from "./directives/valueDisplay.directive";
 
 let logger = new LogService();
 logger.minimumLevel = LogLevel.DEBUG;
@@ -43,22 +44,14 @@ logger.minimumLevel = LogLevel.DEBUG;
     categoryFilterPipe,
     DiscountPipe,
     DiscountDisplayComponent,
-    DiscountEditorComponent
+    DiscountEditorComponent,
+    PaDisplayValueDirective
   ],
   imports: [
     BrowserModule, FormsModule, ReactiveFormsModule
   ],
-  providers: [DiscountService, SimpleDataSource, Model,
-              { provide: LOG_LEVEL, useValue: LogLevel.ERROR },
-              { provide: "debugLevel", useExisting: LOG_LEVEL },
-              { provide: LogService,
-                deps: ["debugLevel"],
-                useFactory: (level) => {
-                  let logger = new LogService();
-                  logger.minimumLevel = level;
-                  return logger;
-                }
-              }],
+  providers: [DiscountService, SimpleDataSource, Model, LogService,
+              { provide: VALUE_SERVICE, useValue: "Apples" }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -2,11 +2,13 @@ import {Component, EventEmitter, OnInit, Output} from '@angular/core';
 import {ProductFormGroup} from "../../model/product-form.model";
 import {Product} from "../../model/product.model";
 import {Model} from "../../model/repository.model";
+import {VALUE_SERVICE} from "../../directives/valueDisplay.directive";
 
 @Component({
   selector: 'paProductForm',
   templateUrl: './product-form.component.html',
-  styleUrls: ['./product-form.component.css']
+  styleUrls: ['./product-form.component.css'],
+  providers: [{ provide: VALUE_SERVICE, useValue: "Oranges" }]
 })
 export class ProductFormComponent {
   form: ProductFormGroup = new ProductFormGroup();
