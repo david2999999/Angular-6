@@ -1,4 +1,4 @@
-import {Directive, HostBinding, Inject, InjectionToken} from "@angular/core";
+import {Directive, Host, HostBinding, Inject, InjectionToken, Optional} from "@angular/core";
 
 export const VALUE_SERVICE = new InjectionToken("value_service");
 
@@ -6,8 +6,8 @@ export const VALUE_SERVICE = new InjectionToken("value_service");
   selector: "[paDisplayValue]"
 })
 export class PaDisplayValueDirective {
-  constructor( @Inject(VALUE_SERVICE) serviceValue: string) {
-    this.elementContent = serviceValue;
+  constructor( @Inject(VALUE_SERVICE) @Host() @Optional() serviceValue: string) {
+    this.elementContent = serviceValue || "No Value";
   }
 
   @HostBinding("textContent")
