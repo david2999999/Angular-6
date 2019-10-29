@@ -24,6 +24,7 @@ import {SimpleDataSource} from "./model/datasource.model";
 import {Model} from "./model/repository.model";
 import {LOG_LEVEL, LOG_SERVICE, LogLevel, LogService, SpecialLogService} from "./service/log.service";
 import {PaDisplayValueDirective, VALUE_SERVICE} from "./directives/valueDisplay.directive";
+import {ModelModule} from "./model/model.module";
 
 let logger = new LogService();
 logger.minimumLevel = LogLevel.DEBUG;
@@ -48,9 +49,9 @@ logger.minimumLevel = LogLevel.DEBUG;
     PaDisplayValueDirective
   ],
   imports: [
-    BrowserModule, FormsModule, ReactiveFormsModule
+    BrowserModule, FormsModule, ReactiveFormsModule, ModelModule
   ],
-  providers: [DiscountService, SimpleDataSource, Model, LogService,
+  providers: [DiscountService, LogService,
               { provide: VALUE_SERVICE, useValue: "Apples" }],
   bootstrap: [AppComponent]
 })

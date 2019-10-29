@@ -1,5 +1,5 @@
 import { FormControl, FormGroup, Validators } from "@angular/forms";
-import {LimitValidator} from "../validators/limit.formvalidator";
+import {LimitValidator} from "./limit.formvalidator";
 
 export class ProductFormControl extends FormControl {
   label: string;

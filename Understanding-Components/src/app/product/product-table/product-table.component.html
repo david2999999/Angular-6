@@ -1,11 +1,11 @@
-<div>
-  <label>Number of items:</label>
-  <select [value]="itemCount || 1" (change)="itemCount=$event.target.value">
-    <option *ngFor="let item of getProducts(); let i = index" [value]="i + 1">
-      {{i + 1}}
-    </option>
-  </select>
-</div>
+<!--<div>-->
+<!--  <label>Number of items:</label>-->
+<!--  <select [value]="itemCount || 1" (change)="itemCount=$event.target.value">-->
+<!--    <option *ngFor="let item of getProducts(); let i = index" [value]="i + 1">-->
+<!--      {{i + 1}}-->
+<!--    </option>-->
+<!--  </select>-->
+<!--</div>-->
 <table class="table table-sm table-bordered table-striped">
   <tr>
     <th></th><th>Name</th><th>Category</th><th>Price</th>
