@@ -1,8 +1,8 @@
 import {Component, EventEmitter, OnInit, Output} from '@angular/core';
-import {ProductFormGroup} from "../../model/product-form.model";
-import {Product} from "../../model/product.model";
-import {Model} from "../../model/repository.model";
-import {VALUE_SERVICE} from "../../common/directives/valueDisplay.directive";
+import {ProductFormGroup} from "../../../model/product-form.model";
+import {Product} from "../../../model/product.model";
+import {Model} from "../../../model/repository.model";
+import {VALUE_SERVICE} from "../../../common/directives/valueDisplay.directive";
 
 @Component({
   selector: 'paProductForm',
