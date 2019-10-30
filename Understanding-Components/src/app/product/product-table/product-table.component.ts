@@ -1,7 +1,7 @@
 import {Component, Input, OnInit, QueryList, ViewChildren} from '@angular/core';
 import {Model} from "../../model/repository.model";
 import {Product} from "../../model/product.model";
-import {LogService} from "../../service/log.service";
+import {LogService} from "../../common/service/log.service";
 
 @Component({
   selector: 'paProductTable',
