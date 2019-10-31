@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8c12dd8-10c3-4991-93a2-eec203370119" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Advanced-Angular-Features/src/app/model/product.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced-Angular-Features/src/app/model/static.datasource.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Angular-Features/src/app/model/repository.model.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,11 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/First-Angular-Application/angular.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Advanced-Angular-Features/angular.json">
           <provider selected="true" editor-type-id="text-editor">
@@ -49,13 +43,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Advanced-Angular-Features/src/app/model/static.datasource.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
+            <state relative-caret-position="260">
               <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Advanced-Angular-Features/src/app/model/repository.model.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,7 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Angular-Indepth/src/app/attribute-directives/template/template.component.ts" />
         <option value="$PROJECT_DIR$/Angular-Indepth/src/app/attribute-directives/directives/attr.directive.ts" />
         <option value="$PROJECT_DIR$/Angular-Indepth/src/app/attribute-directives/directives/twoway.directive.ts" />
         <option value="$PROJECT_DIR$/Angular-Indepth/src/app/attribute-directives/template/template.component.html" />
@@ -184,6 +189,7 @@
         <option value="$PROJECT_DIR$/Advanced-Angular-Features/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/Advanced-Angular-Features/src/app/model/product.model.ts" />
         <option value="$PROJECT_DIR$/Advanced-Angular-Features/src/app/model/static.datasource.ts" />
+        <option value="$PROJECT_DIR$/Advanced-Angular-Features/src/app/model/repository.model.ts" />
       </list>
     </option>
   </component>
@@ -325,12 +331,12 @@
       <workItem from="1572263303470" duration="5357000" />
       <workItem from="1572349312690" duration="3226000" />
       <workItem from="1572436235677" duration="3461000" />
-      <workItem from="1572518985684" duration="1675000" />
+      <workItem from="1572518985684" duration="2119000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185317000" />
+    <option name="totallyTimeSpent" value="185761000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -367,13 +373,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/model/limit.formvalidator.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/model/product-form.model.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1388">
@@ -754,10 +753,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Advanced-Angular-Features/src/app/model/static.datasource.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
+        <state relative-caret-position="260">
           <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced-Angular-Features/src/app/model/repository.model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
