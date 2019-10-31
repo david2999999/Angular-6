@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8c12dd8-10c3-4991-93a2-eec203370119" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Advanced-Angular-Features/src/app/model/product.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Angular-Features/src/app/model/static.datasource.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Understanding-Components/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Understanding-Components/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Understanding-Components/src/app/directives/attr.directive.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Understanding-Components/src/app/common/directives/attr.directive.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Understanding-Components/src/app/directives/cellColor.directive.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Understanding-Components/src/app/common/directives/cellColor.directive.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Understanding-Components/src/app/directives/cellColorSwitcher.directive.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Understanding-Components/src/app/common/directives/cellColorSwitcher.directive.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Understanding-Components/src/app/directives/discountAmount.directive.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Understanding-Components/src/app/common/directives/discountAmount.directive.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Understanding-Components/src/app/directives/iterator.directive.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Understanding-Components/src/app/common/directives/iterator.directive.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Understanding-Components/src/app/directives/structure.directive.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Understanding-Components/src/app/common/directives/structure.directive.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Understanding-Components/src/app/directives/twoway.directive.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Understanding-Components/src/app/common/directives/twoway.directive.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Understanding-Components/src/app/directives/valueDisplay.directive.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Understanding-Components/src/app/common/directives/valueDisplay.directive.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Understanding-Components/src/app/pipe/addTax.pipe.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Understanding-Components/src/app/common/pipe/addTax.pipe.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Understanding-Components/src/app/pipe/ategoryFilter.pipe.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Understanding-Components/src/app/common/pipe/ategoryFilter.pipe.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Understanding-Components/src/app/pipe/discount.pipe.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Understanding-Components/src/app/common/pipe/discount.pipe.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Understanding-Components/src/app/product/product-form/product-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Understanding-Components/src/app/product/product-form/product-form.component.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,10 +18,78 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/app.module.ts">
+        <entry file="file://$PROJECT_DIR$/First-Angular-Application/angular.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Advanced-Angular-Features/angular.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="42" column="2" lean-forward="true" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="2" />
+            <state relative-caret-position="624">
+              <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Advanced-Angular-Features/src/app/app.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Advanced-Angular-Features/src/app/model/product.model.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Advanced-Angular-Features/src/app/model/static.datasource.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Advanced-Angular-Features/src/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Advanced-Angular-Features/src/app/app.component.spec.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Advanced-Angular-Features/src/app/app.component.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Advanced-Angular-Features/src/app/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
               </folding>
@@ -40,93 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/components/components.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="e#0#56#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/components/product/discount-editor/discount-editor.component.ts">
+        <entry file="file://$PROJECT_DIR$/Advanced-Angular-Features/src/app/app.component.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
-              <caret line="8" column="36" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#55#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/components/product/product.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/components/toggle-view/toggle-view.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/components/product/discount-display/discount-display.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="37" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#55#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/common/common.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/app.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="9" selection-start-column="9" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/app.component.ts">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/app.component.spec.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#55#0" expanded="true" />
-              </folding>
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -158,11 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Angular-Indepth/src/app/model-based-form/model-based-form.component.html" />
-        <option value="$PROJECT_DIR$/Angular-Indepth/src/app/validators/limit.formvalidator.ts" />
-        <option value="$PROJECT_DIR$/Angular-Indepth/src/app/model/product-form.model.ts" />
-        <option value="$PROJECT_DIR$/Angular-Indepth/src/app/attribute-directives/template.html" />
-        <option value="$PROJECT_DIR$/Angular-Indepth/src/app/attribute-directives/template/template.component.css" />
         <option value="$PROJECT_DIR$/Angular-Indepth/src/app/attribute-directives/template/template.component.ts" />
         <option value="$PROJECT_DIR$/Angular-Indepth/src/app/attribute-directives/directives/attr.directive.ts" />
         <option value="$PROJECT_DIR$/Angular-Indepth/src/app/attribute-directives/directives/twoway.directive.ts" />
@@ -209,6 +179,11 @@
         <option value="$PROJECT_DIR$/Understanding-Components/src/app/common/common.module.ts" />
         <option value="$PROJECT_DIR$/Understanding-Components/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/Understanding-Components/src/app/components/components.module.ts" />
+        <option value="$PROJECT_DIR$/Advanced-Angular-Features/angular.json" />
+        <option value="$PROJECT_DIR$/Advanced-Angular-Features/src/index.html" />
+        <option value="$PROJECT_DIR$/Advanced-Angular-Features/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/Advanced-Angular-Features/src/app/model/product.model.ts" />
+        <option value="$PROJECT_DIR$/Advanced-Angular-Features/src/app/model/static.datasource.ts" />
       </list>
     </option>
   </component>
@@ -237,66 +212,28 @@
             <path>
               <item name="Angular-6" type="b2602c69:ProjectViewProjectNode" />
               <item name="Angular-6" type="462c0819:PsiDirectoryNode" />
-              <item name="Understanding-Components" type="462c0819:PsiDirectoryNode" />
+              <item name="Advanced-Angular-Features" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Angular-6" type="b2602c69:ProjectViewProjectNode" />
               <item name="Angular-6" type="462c0819:PsiDirectoryNode" />
-              <item name="Understanding-Components" type="462c0819:PsiDirectoryNode" />
+              <item name="Advanced-Angular-Features" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Angular-6" type="b2602c69:ProjectViewProjectNode" />
               <item name="Angular-6" type="462c0819:PsiDirectoryNode" />
-              <item name="Understanding-Components" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Angular-6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Angular-6" type="462c0819:PsiDirectoryNode" />
-              <item name="Understanding-Components" type="462c0819:PsiDirectoryNode" />
+              <item name="Advanced-Angular-Features" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Angular-6" type="b2602c69:ProjectViewProjectNode" />
               <item name="Angular-6" type="462c0819:PsiDirectoryNode" />
-              <item name="Understanding-Components" type="462c0819:PsiDirectoryNode" />
+              <item name="Advanced-Angular-Features" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Angular-6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Angular-6" type="462c0819:PsiDirectoryNode" />
-              <item name="Understanding-Components" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-              <item name="discount-display" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Angular-6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Angular-6" type="462c0819:PsiDirectoryNode" />
-              <item name="Understanding-Components" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-              <item name="discount-editor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Angular-6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Angular-6" type="462c0819:PsiDirectoryNode" />
-              <item name="Understanding-Components" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="toggle-view" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -387,12 +324,13 @@
       <workItem from="1572004241860" duration="5084000" />
       <workItem from="1572263303470" duration="5357000" />
       <workItem from="1572349312690" duration="3226000" />
-      <workItem from="1572436235677" duration="2146000" />
+      <workItem from="1572436235677" duration="3461000" />
+      <workItem from="1572518985684" duration="1675000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182327000" />
+    <option name="totallyTimeSpent" value="185317000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -429,67 +367,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/attribute-directives/template/template.component.ts" />
-    <entry file="file://$PROJECT_DIR$/Angular-Indepth/src/app/attribute-directives/template/template.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-196">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular-Indepth/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular-Indepth/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular-Indepth/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular-Indepth/src/app/structural-directives/structural-template/structural-template.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="28" selection-start-line="28" selection-end-line="30" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/components/toggle-view/toggle-view.component.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/app.component.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/components/toggle-view/toggle-view.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Understanding-Components/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/model/limit.formvalidator.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -792,14 +669,14 @@
     <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/components/product/product.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="42" column="2" lean-forward="true" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="2" />
+        <state relative-caret-position="336">
+          <caret line="42" column="2" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="2" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
           </folding>
@@ -808,10 +685,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Understanding-Components/src/app/components/components.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="216">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/First-Angular-Application/angular.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced-Angular-Features/angular.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced-Angular-Features/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced-Angular-Features/src/app/app.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced-Angular-Features/src/app/app.component.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced-Angular-Features/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced-Angular-Features/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced-Angular-Features/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced-Angular-Features/src/app/model/product.model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced-Angular-Features/src/app/model/static.datasource.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
