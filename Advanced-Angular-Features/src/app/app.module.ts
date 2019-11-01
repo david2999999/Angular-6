@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { TableComponent } from './core/table/table.component';
 import { FormComponent } from './core/form/form.component';
+import { MessageComponent } from './messages/message/message.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TableComponent,
-    FormComponent
+    FormComponent,
+    MessageComponent
   ],
   imports: [
     BrowserModule
