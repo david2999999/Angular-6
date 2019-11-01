@@ -3,7 +3,7 @@ import {Message} from "../message.model";
 import {MessageService} from "../message.service";
 
 @Component({
-  selector: 'app-message',
+  selector: 'message',
   templateUrl: './message.component.html',
   styleUrls: ['./message.component.css']
 })
