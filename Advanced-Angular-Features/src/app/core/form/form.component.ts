@@ -11,6 +11,7 @@ import {Model} from "../../model/repository.model";
 })
 export class FormComponent {
   product: Product = new Product();
+  lastId: number;
 
   constructor(private model: Model,
               private state: SharedState) { }
@@ -29,5 +30,15 @@ export class FormComponent {
 
   resetForm() {
     this.product = new Product();
+  }
+
+  ngDoCheck() {
+    if (this.lastId != this.state.id) {
+      this.product = new Product();
+      if (this.state.mode == MODES.EDIT) {
+        Object.assign(this.product, this.model.getProduct(this.state.id));
+      }
+      this.lastId = this.state.id;
+    }
   }
 }
