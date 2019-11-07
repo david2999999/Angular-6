@@ -6,10 +6,11 @@ import {SHARED_STATE, SharedState} from "./sharedState.model";
 import {TableComponent} from "./table/table.component";
 import {FormComponent} from "./form/form.component";
 import {Subject} from "rxjs";
+import {StatePipe} from "./pipe/state.pipe";
 
 @NgModule({
   imports: [BrowserModule, FormsModule, ModelModule],
-  declarations: [TableComponent, FormComponent],
+  declarations: [TableComponent, FormComponent, StatePipe],
   exports: [ModelModule, TableComponent, FormComponent],
   providers: [{ provide: SHARED_STATE, useValue: new Subject<SharedState>() }]})
 export class CoreModule { }
