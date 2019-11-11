@@ -17,15 +17,14 @@ export class FormComponent {
   constructor(private model: Model,
               @Inject(SHARED_STATE) private stateEvents: Observable<SharedState>) {
     stateEvents
-      .pipe(map(state => new SharedState(state.mode, state.id == 5
-        ? 1 : state.id)))
-      .pipe(filter(state => state.id != 3))
-      .subscribe((update) => {
+      .pipe(map(state => state.mode == MODES.EDIT ? state.id : -1))
+      .pipe(filter(id => id != 3))
+      .subscribe((id) => {
+        this.editing = id != -1;
         this.product = new Product();
-        if (update.id != undefined) {
-          Object.assign(this.product, this.model.getProduct(update.id));
+        if (id != -1) {
+          Object.assign(this.product, this.model.getProduct(id))
         }
-        this.editing = update.mode == MODES.EDIT;
       });
   }
 
