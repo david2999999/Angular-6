@@ -4,7 +4,7 @@ import {NgForm} from "@angular/forms";
 import {MODES, SHARED_STATE, SharedState} from "../sharedState.model";
 import {Model} from "../../model/repository.model";
 import {Observable} from "rxjs";
-import {filter, map} from "rxjs/operators";
+import {distinctUntilChanged, filter, map} from "rxjs/operators";
 
 @Component({
   selector: 'app-form',
@@ -18,6 +18,7 @@ export class FormComponent {
               @Inject(SHARED_STATE) private stateEvents: Observable<SharedState>) {
     stateEvents
       .pipe(map(state => state.mode == MODES.EDIT ? state.id : -1))
+      .pipe(distinctUntilChanged())
       .pipe(filter(id => id != 3))
       .subscribe((id) => {
         this.editing = id != -1;
