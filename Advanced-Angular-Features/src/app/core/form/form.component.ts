@@ -4,7 +4,6 @@ import {NgForm} from "@angular/forms";
 import {MODES, SHARED_STATE, SharedState} from "../sharedState.model";
 import {Model} from "../../model/repository.model";
 import {Observable} from "rxjs";
-import {filter} from "rxjs/operators";
 
 @Component({
   selector: 'app-form',
@@ -16,8 +15,11 @@ export class FormComponent {
 
   constructor(private model: Model,
               @Inject(SHARED_STATE) private stateEvents: Observable<SharedState>) {
-    stateEvents.pipe(filter(state => state.id != 3))
-      .subscribe((update) => {
+    stateEvents
+      // .pipe(skipWhile(state => state.mode == MODES.EDIT))
+      // .pipe(distinctUntilChanged((firstState, secondState) =>
+      //   firstState.mode == secondState.mode && firstState.id == secondState.id))
+      .subscribe(update => {
         this.product = new Product();
         if (update.id != undefined) {
           Object.assign(this.product, this.model.getProduct(update.id));
