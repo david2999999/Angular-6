@@ -4,7 +4,6 @@ import {NgForm} from "@angular/forms";
 import {MODES, SHARED_STATE, SharedState} from "../sharedState.model";
 import {Model} from "../../model/repository.model";
 import {Observable} from "rxjs";
-import {distinctUntilChanged, filter, map, skipWhile} from "rxjs/operators";
 
 @Component({
   selector: 'app-form',
