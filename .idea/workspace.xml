@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8c12dd8-10c3-4991-93a2-eec203370119" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Advanced-Angular-Features/src/app/model/rest.datasource.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced-Angular-Features/src/app/model/model.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced-Angular-Features/src/app/model/model.module.ts" afterDir="false" />
-    </list>
+    <list default="true" id="a8c12dd8-10c3-4991-93a2-eec203370119" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -352,12 +348,12 @@
       <workItem from="1573218220683" duration="1351000" />
       <workItem from="1573475994423" duration="4932000" />
       <workItem from="1573562797583" duration="3372000" />
-      <workItem from="1573649431542" duration="3299000" />
+      <workItem from="1573649431542" duration="3746000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214908000" />
+    <option name="totallyTimeSpent" value="215355000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
