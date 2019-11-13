@@ -220,40 +220,6 @@
               <item name="Angular-6" type="b2602c69:ProjectViewProjectNode" />
               <item name="Angular-6" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Angular-6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Angular-6" type="462c0819:PsiDirectoryNode" />
-              <item name="Advanced-Angular-Features" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Angular-6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Angular-6" type="462c0819:PsiDirectoryNode" />
-              <item name="Advanced-Angular-Features" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Angular-6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Angular-6" type="462c0819:PsiDirectoryNode" />
-              <item name="Advanced-Angular-Features" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Angular-6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Angular-6" type="462c0819:PsiDirectoryNode" />
-              <item name="Advanced-Angular-Features" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Angular-6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Angular-6" type="462c0819:PsiDirectoryNode" />
-              <item name="Advanced-Angular-Features" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -361,7 +327,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="215629000" />
+    <option name="totallyTimeSpent" value="215901000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
