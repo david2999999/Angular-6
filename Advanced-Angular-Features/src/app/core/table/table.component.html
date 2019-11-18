@@ -13,13 +13,14 @@
       <button class="btn btn-danger btn-sm" (click)="deleteProduct(item.id)">
         Delete
       </button>
-      <button class="btn btn-warning btn-sm" (click)="editProduct(item.id)">
+      <button class="btn btn-warning btn-sm" (click)="editProduct(item.id)"
+              routerLink="/form/edit">
         Edit
       </button>
     </td>
   </tr>
 </table>
-<button class="btn btn-primary m-1" (click)="createProduct()">
+<button class="btn btn-primary" (click)="createProduct()" routerLink="/form/create">
   Create New Product
 </button>
 

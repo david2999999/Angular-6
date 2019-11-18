@@ -10,10 +10,10 @@ import {StatePipe} from "./pipe/state.pipe";
 import {MessageModule} from "../messages/message.module";
 import {MessageService} from "../messages/service/message.service";
 import {Model} from "../model/repository.model";
-import {Message} from "../messages/message.model";
+import {RouterModule} from "@angular/router";
 
 @NgModule({
-  imports: [BrowserModule, FormsModule, ModelModule, MessageModule],
+  imports: [BrowserModule, FormsModule, ModelModule, MessageModule, RouterModule],
   declarations: [TableComponent, FormComponent, StatePipe],
   exports: [ModelModule, TableComponent, FormComponent],
   providers: [{
