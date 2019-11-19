@@ -13,7 +13,7 @@ export class FormComponent {
   product: Product = new Product();
 
   constructor(private model: Model, activeRoute: ActivatedRoute) {
-    this.editing = activeRoute.snapshot.url[1].path == "edit";
+    this.editing = activeRoute.snapshot.params["mode"] == "edit";
   }
 
   editing: boolean = false;
