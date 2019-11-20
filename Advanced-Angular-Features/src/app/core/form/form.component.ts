@@ -15,8 +15,20 @@ export class FormComponent {
   constructor(private model: Model, activeRoute: ActivatedRoute) {
     this.editing = activeRoute.snapshot.params["mode"] == "edit";
     let id = activeRoute.snapshot.params["id"];
+
     if (id != null) {
-      Object.assign(this.product, model.getProduct(id) || new Product());
+      let name = activeRoute.snapshot.params["name"];
+      let category = activeRoute.snapshot.params["category"];
+      let price = activeRoute.snapshot.params["price"];
+
+      if (name != null && category != null && price != null) {
+        this.product.id = id;
+        this.product.name = name;
+        this.product.category = category;
+        this.product.price = Number.parseFloat(price);
+      } else {
+        Object.assign(this.product, model.getProduct(id) || new Product());
+      }
     }
   }
 
