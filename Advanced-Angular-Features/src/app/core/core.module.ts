@@ -11,10 +11,11 @@ import {MessageModule} from "../messages/message.module";
 import {MessageService} from "../messages/service/message.service";
 import {Model} from "../model/repository.model";
 import {RouterModule} from "@angular/router";
+import {ProductCountComponent} from "./productCount.component";
 
 @NgModule({
   imports: [BrowserModule, FormsModule, ModelModule, MessageModule, RouterModule],
-  declarations: [TableComponent, FormComponent, StatePipe],
+  declarations: [TableComponent, FormComponent, StatePipe, ProductCountComponent],
   exports: [ModelModule, TableComponent, FormComponent],
   // providers: [{
   //   provide: SHARED_STATE,
