@@ -18,18 +18,7 @@ export class FormComponent {
     let id = activeRoute.snapshot.params["id"];
 
     if (id != null) {
-      let name = activeRoute.snapshot.params["name"];
-      let category = activeRoute.snapshot.params["category"];
-      let price = activeRoute.snapshot.params["price"];
-
-      if (name != null && category != null && price != null) {
-        this.product.id = id;
-        this.product.name = name;
-        this.product.category = category;
-        this.product.price = Number.parseFloat(price);
-      } else {
-        Object.assign(this.product, model.getProduct(id) || new Product());
-      }
+      Object.assign(this.product, model.getProduct(id) || new Product());
     }
   }
 
