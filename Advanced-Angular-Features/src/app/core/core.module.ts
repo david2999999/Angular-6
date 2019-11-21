@@ -12,10 +12,12 @@ import {MessageService} from "../messages/service/message.service";
 import {Model} from "../model/repository.model";
 import {RouterModule} from "@angular/router";
 import {ProductCountComponent} from "./productCount.component";
+import {CategoryCountComponent} from "./categoryCount.component";
+import {NotFoundComponent} from "./notFound.component";
 
 @NgModule({
   imports: [BrowserModule, FormsModule, ModelModule, MessageModule, RouterModule],
-  declarations: [TableComponent, FormComponent, StatePipe, ProductCountComponent],
+  declarations: [TableComponent, FormComponent, StatePipe, ProductCountComponent, CategoryCountComponent, NotFoundComponent],
   exports: [ModelModule, TableComponent, FormComponent],
   // providers: [{
   //   provide: SHARED_STATE,
