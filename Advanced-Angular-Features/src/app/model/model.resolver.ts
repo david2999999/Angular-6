@@ -4,14 +4,18 @@ import { Observable } from "rxjs";
 import { Model } from "./repository.model"
 import { RestDataSource } from "./rest.datasource";
 import { Product } from "./product.model";
+import {Message} from "../messages/message.model";
+import {MessageService} from "../messages/service/message.service";
 
 @Injectable()
 export class ModelResolver {
-  constructor(private model: Model, private dataSource: RestDataSource) { }
+  constructor(private model: Model, private dataSource: RestDataSource, private messages: MessageService) { }
 
   resolve(route: ActivatedRouteSnapshot,
           state: RouterStateSnapshot): Observable<Product[]> {
-    return this.model.getProducts().length == 0
-      ? this.dataSource.getData() : null;
+    if (this.model.getProducts().length == 0) {
+      this.messages.reportMessage(new Message("Loading data..."));
+      return this.dataSource.getData();
+    }
   }
 }
