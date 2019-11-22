@@ -2,7 +2,7 @@ import { Injectable, Inject, InjectionToken } from "@angular/core";
 import {HttpClient, HttpHeaders} from "@angular/common/http";
 import {Observable, throwError} from "rxjs";
 import { Product } from "./product.model";
-import {catchError} from "rxjs/operators";
+import {catchError, delay} from "rxjs/operators";
 
 export const REST_URL = new InjectionToken("rest_url");
 
@@ -36,7 +36,9 @@ export class RestDataSource {
         "Access-Key": "<secret>",
         "Application-Name": "exampleApp"
       })
-    }).pipe(catchError((error: Response) =>
+    })
+    .pipe(delay(5000))
+    .pipe(catchError((error: Response) =>
           throwError(`Network Error: ${error.statusText} (${error.status})`)
     ));
   }
