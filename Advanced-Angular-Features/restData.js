@@ -11,6 +11,6 @@ module.exports = function () {
       { id: 8, name: "Human Chess Board", category: "Chess", price: 75 },
       { id: 9, name: "Bling Bling King", category: "Chess", price: 1200 }
     ]
-  }
+  };
   return data
-}
+};
