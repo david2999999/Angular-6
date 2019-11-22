@@ -12,6 +12,18 @@
       </button>
     </div>
     <div class="col-9">
+      <button class="btn btn-info" routerLink="/table/products">
+        Count Products
+      </button>
+      <button class="btn btn-primary" routerLink="/table/categories">
+        Count Categories
+      </button>
+      <button class="btn btn-secondary" routerLink="/table">
+        Count Neither
+      </button>
+      <div class="my-2">
+        <router-outlet></router-outlet>
+      </div>
       <table class="table table-sm table-bordered table-striped">
         <tr>
           <th>ID</th>
