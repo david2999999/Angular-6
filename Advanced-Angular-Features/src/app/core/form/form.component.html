@@ -2,7 +2,16 @@
   <h5>{{editing ? "Edit" : "Create"}} Product</h5>
 <!--  Last Event: {{ stateEvents | async | formatState }}-->
 </div>
-
+<div *ngIf="editing" class="p-2">
+  <button class="btn btn-secondary"
+          [routerLink]="['/form', 'edit', model.getPreviousProductid(product.id)]">
+    Previous
+  </button>
+  <button class="btn btn-secondary"
+          [routerLink]="['/form', 'edit', model.getNextProductId(product.id)]">
+    Next
+  </button>
+</div>
 <form novalidate #form="ngForm" (ngSubmit)="submitForm(form)" (reset)="resetForm()" >
   <div class="form-group">
     <label>Name</label>
