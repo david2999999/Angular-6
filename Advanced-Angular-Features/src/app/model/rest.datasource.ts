@@ -37,7 +37,7 @@ export class RestDataSource {
         "Application-Name": "exampleApp"
       })
     })
-    .pipe(delay(5000))
+    .pipe(delay(3000))
     .pipe(catchError((error: Response) =>
           throwError(`Network Error: ${error.statusText} (${error.status})`)
     ));
