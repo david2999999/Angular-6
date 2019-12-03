@@ -9,6 +9,7 @@ import {TermsGuard} from "./terms.guard";
 
 const childRoutes: Routes = [
   { path: "",
+    canActivateChild: [TermsGuard],
     children: [
         { path: "products", component: ProductCountComponent },
         { path: "categories", component: CategoryCountComponent },

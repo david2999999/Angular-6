@@ -21,4 +21,21 @@ export class TermsGuard {
       return true;
     }
   }
+
+  canActivateChild(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Promise<boolean> | boolean {
+    if (route.url.length > 0 && route.url[route.url.length - 1].path == "categories") {
+      return new Promise<boolean>((resolve, reject) => {
+        let responses: [string, (string) => void][] = [
+          ["Yes", () => resolve(true)],
+          ["No ", () => resolve(false)]
+        ];
+
+        this.messages.reportMessage(
+          new Message("Do you want to see the categories component?",
+            false, responses));
+      });
+    } else {
+      return true;
+    }
+  }
 }
