@@ -8,13 +8,19 @@ import {MessageModule} from "./messages/message.module";
 import {routing} from "./app.routing";
 import {TermsGuard} from "./terms.guard";
 import {LoadGuard} from "./load.guard";
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule, ModelModule, CoreModule, MessageModule, routing
+    BrowserModule,
+    ModelModule,
+    CoreModule,
+    MessageModule,
+    BrowserAnimationsModule,
+    routing
   ],
   providers: [TermsGuard, LoadGuard],
   bootstrap: [AppComponent]

@@ -1,14 +1,14 @@
-import {Component, Inject, OnInit} from '@angular/core';
+import {Component} from '@angular/core';
 import {Model} from "../../model/repository.model";
-import {MODES, SHARED_STATE, SharedState} from "../sharedState.model";
 import {Product} from "../../model/product.model";
-import {Observer} from "rxjs";
 import {ActivatedRoute} from "@angular/router";
+import {HighlightTrigger} from "./table.animations";
 
 @Component({
   selector: 'app-table',
   templateUrl: './table.component.html',
-  styleUrls: ['./table.component.css']
+  styleUrls: ['./table.component.css'],
+  animations: [HighlightTrigger]
 })
 export class TableComponent {
   private category: string = null;
@@ -41,4 +41,11 @@ export class TableComponent {
   // createProduct() {
   //   this.observer.next(new SharedState(MODES.CREATE));
   // }
+
+  highlightCategory: string = "";
+
+  getRowState(category: string): string {
+    return this.highlightCategory == "" ? "" :
+      this.highlightCategory == category ? "selected" : "notselected";
+  }
 }
