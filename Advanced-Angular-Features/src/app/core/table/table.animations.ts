@@ -9,9 +9,10 @@ export const HighlightTrigger = trigger("rowHighlight", [
     backgroundColor: "lightsalmon",
     fontSize: "12px"
   })),
-  state("*", style({
-    border: "solid black 2px"
+  state("void", style({
+    opacity: 0
   })),
   transition("* => notselected", animate("200ms")),
-  transition("* => selected", animate("400ms"))
+  transition("* => selected", animate("400ms ease-in")),
+  transition("void => *", animate("500ms"))
 ]);
