@@ -2,8 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-ondemand',
-  templateUrl: './ondemand.component.html',
-  styleUrls: ['./ondemand.component.css']
+  templateUrl: './ondemand.component.html'
 })
 export class OndemandComponent implements OnInit {
 
